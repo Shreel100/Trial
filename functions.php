@@ -4,7 +4,7 @@
  * 
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  * 
- * @package WordPress
+ * @package WordPressshort
  * @subpackage RULA
  * @since RULA 0.1
  */
@@ -505,3 +505,13 @@ add_filter( 'ninja_forms_admin_submissions_capabilities',   'nf_subs_capabilitie
 function nf_subs_capabilities( $cap ) {
   return 'edit_posts'; // EDIT: User Capability
 }
+
+function rylib_stafflist_shortcode($atts){
+
+  set_query_var('attributes', $atts);
+
+  ob_start(); // Start output buffering
+  get_template_part('shortcodes/rl-staff-list/shortcode', 'rylib-staff-list');
+  return ob_get_clean(); // Capture and return the buffered content
+}
+add_shortcode('rylib-staff-list', 'rylib_stafflist_shortcode');
