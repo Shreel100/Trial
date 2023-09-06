@@ -1,0 +1,43 @@
+/* Main column width */
+.wp-block {
+  max-width: 100%;
+}
+
+.block-editor__typewriter {
+  width: 100%;
+  padding: 0 1rem;
+  background: #ebebeb;
+  font-family: 'Replica-Regular', Verdana, Arial, sans-serif;
+}
+
+/* Gutenberg stuff! /*
+/* In Editor List Block Styling */
+ul[class*="rylib-list-style-none"] {
+	list-style: none;
+	padding: 0px;
+}
+
+/* More clearly show where columns are */
+.wp-block-column {
+  outline: 1px solid #aaa;
+  padding: 0 1.5em;
+}
+
+.wp-block-columns {
+  border: 1px solid #aaa;
+  padding: 1em;
+}
+
+/* make buttons look like what they will actually display as */
+.wp-block-button__link {
+  color: #ffffff;
+  background: #004C9B;
+  line-height: 1em;
+  border-radius: 5px;
+  padding: 0.75em;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: 'Replica-Regular', Verdana, Arial, sans-serif;
+  text-decoration: none;
+  box-shadow: none;
+}

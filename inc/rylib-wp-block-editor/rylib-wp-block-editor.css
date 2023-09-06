@@ -1,0 +1,117 @@
+/* .wp-block-quote */
+.wp-block-quote {
+  border-left: 5px solid #4CA6E8
+}
+.wp-block-quote p:first-child {
+  margin-top: 0;
+}
+
+/* .wp-block-button */
+.wp-block-button .wp-block-button__link,
+.editor-styles-wrapper .wp-block-button__link {
+  color: #ffffff;
+  background: #004C9B;
+  line-height: 1em;
+  border-radius: 5px;
+  padding: 0.75em;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: 'Replica-Regular', Verdana, Arial, sans-serif;
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.wp-block-button .wp-block-button__link:hover,
+.wp-block-button .wp-block-button__link:focus {
+  background: #0077C8;
+}
+
+.wp-block-button.is-style-black-on-ryerson-gold .wp-block-button__link {
+  color: #000000;
+  background: #FFDC00;
+}
+
+.wp-block-button.is-style-black-on-ryerson-gold .wp-block-button__link:hover,
+.wp-block-button.is-style-black-on-ryerson-gold .wp-block-button__link:focus {
+  background: #FFEE00;
+}
+
+/* figcaption styles for image, gallery, table blocks */
+.wp-block-image figcaption,
+.wp-block-gallery > figcaption,
+.wp-block-table > figcaption {
+  font-family: Georgia, serif;
+  font-size: 12px;
+  padding: 0 1em;
+}
+
+.wp-block-image .aligncenter figcaption,
+.wp-block-image .alignleft figcaption,
+.wp-block-image .alignright figcaption,
+.wp-block-gallery.aligncenter > figcaption,
+.wp-block-gallery.alignleft > figcaption,
+.wp-block-gallery.alignright > figcaption,
+.wp-block-table.aligncenter > figcaption,
+.wp-block-table.alignleft > figcaption,
+.wp-block-table.alignright > figcaption {
+  text-align: center;
+  width: 100%;
+}
+
+/* table borders */
+.wp-block-table table {
+  border: 1px solid #000;
+}
+
+.wp-block-table tr {
+  border-bottom: 1px solid #000;
+}
+
+.wp-block-table th,
+.wp-block-table td {
+  padding: 0.5em 1em;
+  border-left: 1px solid #000;
+}
+
+/* Seperator Block */
+.wp-block-separator {
+  border-top: 1px solid #4CA6E8;
+}
+
+/* General selectors for rylib styles so we don't target every single individual block type */
+h2 a { color: #000; text-decoration: none; }
+h2 a:hover { color: #000; text-decoration: underline; }
+
+div[class*="rylib-white-background"],
+p[class*="rylib-white-background"],
+ul[class*="rylib-white-background"] {
+  padding: 1.75em!important;
+  background: #FFF;
+}
+
+div[class*="rylib-white-background"] a,
+p[class*="rylib-white-background"] a,
+ul[class*="rylib-white-background"] a {
+  color: #000;
+}
+
+div[class*="rylib-white-background"] a:visited,
+p[class*="rylib-white-background"] a:visited,
+ul[class*="rylib-white-background"] a:visited {
+  color: #000;
+}
+
+div[class*="rylib-white-background"] h2 {
+  margin-top: 0;
+  font-size: 2rem;
+}
+
+div[class*="rylib-border-bottom-blue"],
+p[class*="rylib-border-bottom-blue"] {
+  border-bottom: 10px #4CA6E8 solid;
+}
+
+ul[class*="rylib-list-style-none"] {
+	list-style: none;
+	padding: 0px;
+}

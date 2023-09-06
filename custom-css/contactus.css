@@ -1,0 +1,116 @@
+/* Contact Us page CSS
+Last Modified by: CN on Jun 14, 2013 */
+
+/* FAQ */
+#la_qform {
+}
+#la_widget {
+}
+#la_qentry {
+}
+#la_qformbutton {
+}
+
+/* column structure */
+#locbox {
+	width: 30%;
+}
+
+#contactbox {
+	width: 50%;
+	padding-left: 2%;
+}
+#contactbox th {
+	padding: 0;
+}
+/* icons */
+#content .headericon {
+	border: 0;
+	padding: 0 5px 0 0;
+	vertical-align: text-bottom;
+}
+
+/* Research Help box */
+#helpbox {
+	border: 2.5px solid #E5A10B;
+	margin-top: 1em;
+	width: 50%;
+	padding-left: 1.7%;
+}
+#content #helpbox h2 {
+	margin-top: 0.5em;
+}
+
+/* For Ask A Librarian widget */
+#lpButDivID-1313887460492 table,
+#lpButDivID-1313887460492 td {
+	max-width: 99.5%;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.lpPoweredBy {
+display:none;
+}
+
+.lpEmtStarRating {
+display:none;
+}
+
+/* Puts Ask a Librarian header close to chat */
+#lpButDivID-1313887460492 {
+	max-height: 150px;
+	overflow: hidden;
+}
+.asklibheader {
+	margin-top: -1em !important;
+}
+
+/* styling privacy statement bit */
+#privstmtheader {
+	margin-bottom: 0.5em;
+}
+.toggleLink {
+	font-size: 1em;
+	font-weight: normal;
+	margin-left: 0.25em;
+}
+@media (max-width: 57.5em) { /* approx 920px, change widget sizing */
+	#la_widget {
+		width: 100% !important;
+		max-width: 700px !important;
+	}
+	#la_qentry {
+		max-width: 500px !important;
+		width: 75% !important;
+		margin-left: 2.5em !important;
+	}
+}
+@media (max-width: 50em) { /* approx 800px, force two column */
+	#la_qentry {
+		width: 75% !important;
+		margin-left: 2% !important;
+	}
+	#locbox,
+	#contactbox,
+	#helpbox {
+		width: 45%;
+	}
+	#helpbox {
+		clear: left;
+	}
+}
+@media (max-width: 40.5em) { /* approx 650px, force single column */
+	#locbox,
+	#contactbox,
+	#helpbox {
+		width: auto;
+		max-width: 95%;
+		clear: both;
+	}
+	#la_qentry {
+		width: 95% !important;
+		margin-left: 0 !important;
+	}
+}

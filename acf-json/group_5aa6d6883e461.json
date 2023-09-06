@@ -1,0 +1,468 @@
+{
+    "key": "group_5aa6d6883e461",
+    "title": "Flex Content (beta)",
+    "fields": [
+        {
+            "key": "field_5aa6d694a2e46",
+            "label": "Row",
+            "name": "content_rows",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "block",
+            "button_label": "Add Content Row",
+            "sub_fields": [
+                {
+                    "key": "field_5aa6d6afa2e47",
+                    "label": "Content",
+                    "name": "flexible_content",
+                    "type": "flexible_content",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layouts": {
+                        "5aa6d6b69e028": {
+                            "key": "5aa6d6b69e028",
+                            "name": "plain_content",
+                            "label": "Plain content",
+                            "display": "block",
+                            "sub_fields": [
+                                {
+                                    "key": "field_5aa6d6c6a2e48",
+                                    "label": "",
+                                    "name": "content",
+                                    "type": "wysiwyg",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "tabs": "all",
+                                    "toolbar": "full",
+                                    "media_upload": 1,
+                                    "delay": 0
+                                },
+                                {
+                                    "key": "field_5aa7f87de3920",
+                                    "label": "Advanced Options",
+                                    "name": "",
+                                    "type": "accordion",
+                                    "instructions": "Advanced options for plain content flex block.",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "open": 0,
+                                    "multi_expand": 0,
+                                    "endpoint": 0
+                                },
+                                {
+                                    "key": "field_5aa7f8bee3921",
+                                    "label": "XS Width",
+                                    "name": "xs_width",
+                                    "type": "number",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "25",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": 12,
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "min": 1,
+                                    "max": 12,
+                                    "step": 1
+                                },
+                                {
+                                    "key": "field_5aa7f93331ec3",
+                                    "label": "SM Width",
+                                    "name": "sm_width",
+                                    "type": "number",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "25",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": 12,
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "min": 1,
+                                    "max": 12,
+                                    "step": 1
+                                },
+                                {
+                                    "key": "field_5aa7f92931ec0",
+                                    "label": "MD Width",
+                                    "name": "md_width",
+                                    "type": "number",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "25",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": 12,
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "min": 1,
+                                    "max": 12,
+                                    "step": 1
+                                },
+                                {
+                                    "key": "field_5aa7f93231ec2",
+                                    "label": "LG Width",
+                                    "name": "lg_width",
+                                    "type": "number",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "25",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": 12,
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "min": 1,
+                                    "max": 12,
+                                    "step": 1
+                                },
+                                {
+                                    "key": "field_5aa7ff59640d5",
+                                    "label": "Classes",
+                                    "name": "classes",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                }
+                            ],
+                            "min": "0",
+                            "max": ""
+                        },
+                        "5aa81fceb2a1d": {
+                            "key": "5aa81fceb2a1d",
+                            "name": "imagetext",
+                            "label": "Image + Text",
+                            "display": "block",
+                            "sub_fields": [
+                                {
+                                    "key": "field_5aa82052b2a25",
+                                    "label": "Image",
+                                    "name": "image",
+                                    "type": "image",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "url",
+                                    "preview_size": "thumbnail",
+                                    "library": "all",
+                                    "min_width": "",
+                                    "min_height": "",
+                                    "min_size": "",
+                                    "max_width": "",
+                                    "max_height": "",
+                                    "max_size": "",
+                                    "mime_types": ""
+                                },
+                                {
+                                    "key": "field_5aa82086b2a26",
+                                    "label": "Heading",
+                                    "name": "heading",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                },
+                                {
+                                    "key": "field_5aa94c852501d",
+                                    "label": "Heading Background Colour",
+                                    "name": "heading_bg",
+                                    "type": "select",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "choices": {
+                                        "ryersonblue": "Ryerson Blue",
+                                        "ryersongold": "Ryerson Gold",
+                                        "white": "White",
+                                        "black": "Black",
+                                        "orange": "Orange",
+                                        "orange2": "Orange 2",
+                                        "lightgold": "Light Gold",
+                                        "darkgrey": "Dark Grey",
+                                        "lightgrey": "Light Grey",
+                                        "darkblue": "Dark Blue",
+                                        "lightblue": "Light Blue",
+                                        "lightblue2": "Light Blue 2",
+                                        "lightblue3": "Light Blue 3",
+                                        "darkorange": "Dark Orange",
+                                        "red": "Red",
+                                        "pink": "Pink",
+                                        "purple": "Purple",
+                                        "purple2": "Purple 2",
+                                        "green": "Green",
+                                        "green2": "Green 2",
+                                        "teal": "Teal",
+                                        "teal2": "Teal 2"
+                                    },
+                                    "default_value": [
+                                        "ryersonblue"
+                                    ],
+                                    "allow_null": 0,
+                                    "multiple": 0,
+                                    "ui": 0,
+                                    "ajax": 0,
+                                    "return_format": "value",
+                                    "placeholder": ""
+                                },
+                                {
+                                    "key": "field_5aa96949f7d0f",
+                                    "label": "Heading Link",
+                                    "name": "heading_link",
+                                    "type": "url",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": ""
+                                },
+                                {
+                                    "key": "field_5aa81fceb2a1e",
+                                    "label": "Text Content",
+                                    "name": "content",
+                                    "type": "textarea",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "maxlength": "",
+                                    "rows": "",
+                                    "new_lines": ""
+                                },
+                                {
+                                    "key": "field_5aa81fceb2a1f",
+                                    "label": "Advanced Options",
+                                    "name": "",
+                                    "type": "accordion",
+                                    "instructions": "Advanced options for image + text flex block.",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "open": 0,
+                                    "multi_expand": 0,
+                                    "endpoint": 0
+                                },
+                                {
+                                    "key": "field_5aa81fceb2a20",
+                                    "label": "XS Width",
+                                    "name": "xs_width",
+                                    "type": "number",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "25",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": 12,
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "min": 1,
+                                    "max": 12,
+                                    "step": 1
+                                },
+                                {
+                                    "key": "field_5aa81fceb2a21",
+                                    "label": "SM Width",
+                                    "name": "sm_width",
+                                    "type": "number",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "25",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": 12,
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "min": 1,
+                                    "max": 12,
+                                    "step": 1
+                                },
+                                {
+                                    "key": "field_5aa81fceb2a22",
+                                    "label": "MD Width",
+                                    "name": "md_width",
+                                    "type": "number",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "25",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": 12,
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "min": 1,
+                                    "max": 12,
+                                    "step": 1
+                                },
+                                {
+                                    "key": "field_5aa81fceb2a23",
+                                    "label": "LG Width",
+                                    "name": "lg_width",
+                                    "type": "number",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "25",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": 12,
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "min": 1,
+                                    "max": 12,
+                                    "step": 1
+                                },
+                                {
+                                    "key": "field_5aa81fceb2a24",
+                                    "label": "Classes",
+                                    "name": "classes",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                }
+                            ],
+                            "min": "0",
+                            "max": ""
+                        }
+                    },
+                    "button_label": "Add Flex Block",
+                    "min": "",
+                    "max": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
+        ]
+    ],
+    "menu_order": 2,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1522272798
+}

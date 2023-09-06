@@ -1,0 +1,526 @@
+/**
+ * CSS Ribbons! With colours from the Ryerson Web Style Guide: 
+ * http://www.ryerson.ca/websupport/aem-basics/web-style-guide/
+ * Default colour is Ryerson Blue: #004C9B
+ */
+
+.ribbon {
+  position: absolute;
+  top: 5px;
+  background: #004C9B;
+  height: 24px;
+  font-family: "Lucida Grande", "Veranda", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  z-index: 999;
+  padding: 2px 8px 2px 4px;
+
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1.0, 1.0);
+}
+.ribbon:hover {
+  filter: brightness(115%);
+}
+.ribbon:before, .ribbon:after {
+  content: "";
+  height: 0;
+  width: 0;
+  display: block;
+  position: absolute;
+}
+.ribbon:before {
+  top: 0;
+}
+.ribbon:after {
+  bottom: -8px;
+  filter: brightness(75%);
+}
+
+.ribbon a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.ribbon-right {
+  right: -8px;
+  padding: 2px 8px 2px 4px;
+}
+.ribbon-right:before {
+  left: -24px;
+  border-top: 12px solid transparent;
+  border-right: 12px solid #004C9B;
+  border-bottom: 12px solid transparent;
+  border-left: 12px solid transparent;
+}
+.ribbon-right:after {
+  right: 0;
+  border-top: 8px solid #004C9B;
+  border-right: 8px solid transparent;
+}
+
+.ribbon-left {
+  left: -8px;
+  padding: 2px 4px 2px 8px;
+}
+.ribbon-left:before {
+  right: -24px;
+  border-top: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-left: 12px solid #004C9B;
+}
+.ribbon-left:after {
+  left: 0;
+  border-top: 8px solid #002e5f;
+  border-left: 8px solid transparent;
+}
+
+/* Other ribbon colours! */
+.ribbon.ribbon-ryersonblue {
+  background: #004C9B;
+  color: #FFFFFF;
+}
+.ribbon.ribbon-ryersonblue:after {
+  border-top-color: #004C9B;
+}
+.ribbon-right.ribbon-ryersonblue:before {
+  border-right-color: #004C9B;
+}
+.ribbon-left.ribbon-ryersonblue:before {
+  border-left-color: #004C9B;
+}
+.ribbon.ribbon-ryersonblue a, .ribbon.ribbon-ryersonblue a:link {
+  color: #FFFFFF;
+}
+.ribbon.ribbon-ryersonblue a:visited {
+  color: #FFFFFF;
+}
+
+.ribbon.ribbon-ryersongold {
+  background: #FFDC00;
+  color: #000000;
+}
+.ribbon.ribbon-ryersongold:after {
+  border-top-color: #FFDC00;
+}
+.ribbon-right.ribbon-ryersongold:before {
+  border-right-color: #FFDC00;
+}
+.ribbon-left.ribbon-ryersongold:before {
+  border-left-color: #FFDC00;
+}
+.ribbon.ribbon-ryersongold a, .ribbon.ribbon-ryersongold a:link {
+  color: #000000;
+}
+.ribbon.ribbon-ryersongold a:visited {
+  color: #000000;
+}
+
+.ribbon.ribbon-black {
+  background: #000000;
+  color: #FFFFFF;
+}
+.ribbon.ribbon-black:after {
+  border-top-color: #000000;
+}
+.ribbon-right.ribbon-black:before {
+  border-right-color: #000000;
+}
+.ribbon-left.ribbon-black:before {
+  border-left-color: #000000;
+}
+.ribbon.ribbon-black a, .ribbon.ribbon-black a:link {
+  color: #FFFFFF;
+}
+.ribbon.ribbon-black a:visited {
+  color: #FFFFFF;
+}
+
+.ribbon.ribbon-white {
+  background: #FFFFFF;
+  color: #000000;
+}
+.ribbon.ribbon-white:after {
+  border-top-color: #FFFFFF;
+}
+.ribbon-right.ribbon-white:before {
+  border-right-color: #FFFFFF;
+}
+.ribbon-left.ribbon-white:before {
+  border-left-color: #FFFFFF;
+}
+.ribbon.ribbon-white a, .ribbon.ribbon-white a:link {
+  color: #000000;
+}
+.ribbon.ribbon-white a:visited {
+  color: #000000;
+}
+
+.ribbon.ribbon-orange {
+  background: #FFA300;
+  color: #000000;
+}
+.ribbon.ribbon-orange:after {
+  border-top-color: #FFA300;
+}
+.ribbon-right.ribbon-orange:before {
+  border-right-color: #FFA300;
+}
+.ribbon-left.ribbon-orange:before {
+  border-left-color: #FFA300;
+}
+.ribbon.ribbon-orange a, .ribbon.ribbon-orange a:link {
+  color: #000000;
+}
+.ribbon.ribbon-orange a:visited {
+  color: #000000;
+}
+
+.ribbon.ribbon-orange2 {
+  background: #FFC609;
+  color: #000000;
+}
+.ribbon.ribbon-orange2:after {
+  border-top-color: #FFC609;
+}
+.ribbon-right.ribbon-orange2:before {
+  border-right-color: #FFC609;
+}
+.ribbon-left.ribbon-orange2:before {
+  border-left-color: #FFC609;
+}
+.ribbon.ribbon-orange2 a, .ribbon.ribbon-orange2 a:link {
+  color: #000000;
+}
+.ribbon.ribbon-orange2 a:visited {
+  color: #000000;
+}
+
+.ribbon.ribbon-lightgold {
+  background: #FFEE00;
+  color: #000000;
+}
+.ribbon.ribbon-lightgold:after {
+  border-top-color: #FFEE00;
+}
+.ribbon-right.ribbon-lightgold:before {
+  border-right-color: #FFEE00;
+}
+.ribbon-left.ribbon-lightgold:before {
+  border-left-color: #FFEE00;
+}
+.ribbon.ribbon-lightgold a, .ribbon.ribbon-lightgold a:link {
+  color: #000000;
+}
+.ribbon.ribbon-lightgold a:visited {
+  color: #000000;
+}
+
+.ribbon.ribbon-darkgrey {
+  background: #999999;
+  color: #000000;
+}
+.ribbon.ribbon-darkgrey:after {
+  border-top-color: #999999;
+}
+.ribbon-right.ribbon-darkgrey:before {
+  border-right-color: #999999;
+}
+.ribbon-left.ribbon-darkgrey:before {
+  border-left-color: #999999;
+}
+.ribbon.ribbon-darkgrey a, .ribbon.ribbon-darkgrey a:link {
+  color: #000000;
+}
+.ribbon.ribbon-darkgrey a:visited {
+  color: #000000;
+}
+
+.ribbon.ribbon-lightgrey {
+  background: #D9D9D9;
+  color: #000000;
+}
+.ribbon.ribbon-lightgrey:after {
+  border-top-color: #D9D9D9;
+}
+.ribbon-right.ribbon-lightgrey:before {
+  border-right-color: #D9D9D9;
+}
+.ribbon-left.ribbon-lightgrey:before {
+  border-left-color: #D9D9D9;
+}
+.ribbon.ribbon-lightgrey a, .ribbon.ribbon-lightgrey a:link {
+  color: #000000;
+}
+.ribbon.ribbon-lightgrey a:visited {
+  color: #000000;
+}
+
+.ribbon.ribbon-darkblue {
+  background: #002D72;
+  color: #FFFFFF;
+}
+.ribbon.ribbon-darkblue:after {
+  border-top-color: #002D72;
+}
+.ribbon-right.ribbon-darkblue:before {
+  border-right-color: #002D72;
+}
+.ribbon-left.ribbon-darkblue:before {
+  border-left-color: #002D72;
+}
+.ribbon.ribbon-darkblue a, .ribbon.ribbon-darkblue a:link {
+  color: #FFFFFF;
+}
+.ribbon.ribbon-darkblue a:visited {
+  color: #FFFFFF;
+}
+
+.ribbon.ribbon-lightblue {
+  background: #0077C8;
+  color: #FFFFFF;
+}
+.ribbon.ribbon-lightblue:after {
+  border-top-color: #0077C8;
+}
+.ribbon-right.ribbon-lightblue:before {
+  border-right-color: #0077C8;
+}
+.ribbon-left.ribbon-lightblue:before {
+  border-left-color: #0077C8;
+}
+.ribbon.ribbon-lightblue a, .ribbon.ribbon-lightblue a:link {
+  color: #FFFFFF;
+}
+.ribbon.ribbon-lightblue a:visited {
+  color: #FFFFFF;
+}
+
+.ribbon.ribbon-lightblue2 {
+  background: #00A9EF;
+  color: #000000;
+}
+.ribbon.ribbon-lightblue2:after {
+  border-top-color: #00A9EF;
+}
+.ribbon-right.ribbon-lightblue2:before {
+  border-right-color: #00A9EF;
+}
+.ribbon-left.ribbon-lightblue2:before {
+  border-left-color: #00A9EF;
+}
+.ribbon.ribbon-lightblue2 a, .ribbon.ribbon-lightblue2 a:link {
+  color: #000000;
+}
+.ribbon.ribbon-lightblue2 a:visited {
+  color: #000000;
+}
+
+.ribbon.ribbon-lightblue3 {
+  background: #5BC2F4;
+  color: #000000;
+}
+.ribbon.ribbon-lightblue3:after {
+  border-top-color: #5BC2F4;
+}
+.ribbon-right.ribbon-lightblue3:before {
+  border-right-color: #5BC2F4;
+}
+.ribbon-left.ribbon-lightblue3:before {
+  border-left-color: #5BC2F4;
+}
+.ribbon.ribbon-lightblue3 a, .ribbon.ribbon-lightblue3 a:link {
+  color: #000000;
+}
+.ribbon.ribbon-lightblue3 a:visited {
+  color: #000000;
+}
+
+
+.ribbon.ribbon-darkorange {
+  background: #FF7200;
+  color: #000000;
+}
+.ribbon.ribbon-darkorange:after {
+  border-top-color: #FF7200;
+}
+.ribbon-right.ribbon-darkorange:before {
+  border-right-color: #FF7200;
+}
+.ribbon-left.ribbon-darkorange:before {
+  border-left-color: #FF7200;
+}
+.ribbon.ribbon-darkorange a, .ribbon.ribbon-darkorange a:link {
+  color: #000000;
+}
+.ribbon.ribbon-darkorange a:visited {
+  color: #000000;
+}
+
+.ribbon.ribbon-red {
+  background: #E40032;
+  color: #FFFFFF;
+}
+.ribbon.ribbon-red:after {
+  border-top-color: #E40032;
+}
+.ribbon-right.ribbon-red:before {
+  border-right-color: #E40032;
+}
+.ribbon-left.ribbon-red:before {
+  border-left-color: #E40032;
+}
+.ribbon.ribbon-red a, .ribbon.ribbon-red a:link {
+  color: #FFFFFF;
+}
+.ribbon.ribbon-red a:visited {
+  color: #FFFFFF;
+}
+
+
+.ribbon.ribbon-pink {
+  background: #EB0072;
+  color: #000000;
+}
+.ribbon.ribbon-pink:after {
+  border-top-color: #EB0072;
+}
+.ribbon-right.ribbon-pink:before {
+  border-right-color: #EB0072;
+}
+.ribbon-left.ribbon-pink:before {
+  border-left-color: #EB0072;
+}
+.ribbon.ribbon-pink a, .ribbon.ribbon-pink a:link {
+  color: #000000;
+}
+.ribbon.ribbon-pink a:visited {
+  color: #000000;
+}
+
+
+.ribbon.ribbon-purple {
+  background: #792082;
+  color: #FFFFFF;
+}
+.ribbon.ribbon-purple:after {
+  border-top-color: #792082;
+}
+.ribbon-right.ribbon-purple:before {
+  border-right-color: #792082;
+}
+.ribbon-left.ribbon-purple:before {
+  border-left-color: #792082;
+}
+.ribbon.ribbon-purple a, .ribbon.ribbon-purple a:link {
+  color: #FFFFFF;
+}
+.ribbon.ribbon-purple a:visited {
+  color: #FFFFFF;
+}
+
+
+.ribbon.ribbon-purple2 {
+  background: #7474C1;
+  color: #000000;
+}
+.ribbon.ribbon-purple2:after {
+  border-top-color: #7474C1;
+}
+.ribbon-right.ribbon-purple2:before {
+  border-right-color: #7474C1;
+}
+.ribbon-left.ribbon-purple2:before {
+  border-left-color: #7474C1;
+}
+.ribbon.ribbon-purple2 a, .ribbon.ribbon-purple2 a:link {
+  color: #000000;
+}
+.ribbon.ribbon-purple2 a:visited {
+  color: #000000;
+}
+
+
+.ribbon.ribbon-green {
+  background: #009A44;
+  color: #000000;
+}
+.ribbon.ribbon-green:after {
+  border-top-color: #009A44;
+}
+.ribbon-right.ribbon-green:before {
+  border-right-color: #009A44;
+}
+.ribbon-left.ribbon-green:before {
+  border-left-color: #009A44;
+}
+.ribbon.ribbon-green a, .ribbon.ribbon-green a:link {
+  color: #000000;
+}
+.ribbon.ribbon-green a:visited {
+  color: #000000;
+}
+
+
+.ribbon.ribbon-green2 {
+  background: #BFBE00;
+  color: #000000;
+}
+.ribbon.ribbon-green2:after {
+  border-top-color: #BFBE00;
+}
+.ribbon-right.ribbon-green2:before {
+  border-right-color: #BFBE00;
+}
+.ribbon-left.ribbon-green2:before {
+  border-left-color: #BFBE00;
+}
+.ribbon.ribbon-green2 a, .ribbon.ribbon-green2 a:link {
+  color: #000000;
+}
+.ribbon.ribbon-green2 a:visited {
+  color: #000000;
+}
+
+
+.ribbon.ribbon-teal {
+  background: #00A3AD;
+  color: #000000;
+}
+.ribbon.ribbon-teal:after {
+  border-top-color: #00A3AD;
+}
+.ribbon-right.ribbon-teal:before {
+  border-right-color: #00A3AD;
+}
+.ribbon-left.ribbon-teal:before {
+  border-left-color: #00A3AD;
+}
+.ribbon.ribbon-teal a, .ribbon.ribbon-teal a:link {
+  color: #000000;
+}
+.ribbon.ribbon-teal a:visited {
+  color: #000000;
+}
+
+
+.ribbon.ribbon-teal2 {
+  background: #6BBFAE;
+  color: #000000;
+}
+.ribbon.ribbon-teal2:after {
+  border-top-color: #6BBFAE;
+}
+.ribbon-right.ribbon-teal2:before {
+  border-right-color: #6BBFAE;
+}
+.ribbon-left.ribbon-teal2:before {
+  border-left-color: #6BBFAE;
+}
+.ribbon.ribbon-teal2 a, .ribbon.ribbon-teal2 a:link {
+  color: #000000;
+}
+.ribbon.ribbon-teal2 a:visited {
+  color: #000000;
+}

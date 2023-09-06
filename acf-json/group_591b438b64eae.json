@@ -1,0 +1,63 @@
+{
+    "key": "group_591b438b64eae",
+    "title": "Google Analytics",
+    "fields": [
+        {
+            "key": "field_591b431e8c21a",
+            "label": "Google Analytics Property ID",
+            "name": "google_analytics_property_id",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_632a1b0630eaa",
+            "label": "Google Tag Manager Measurement ID",
+            "name": "google_tag_manager_measurement_id",
+            "type": "text",
+            "instructions": "gtag.js measurement ID (GA4)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "rula-general-settings"
+            }
+        ]
+    ],
+    "menu_order": 6,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1663706095
+}

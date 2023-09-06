@@ -1,0 +1,58 @@
+/* TODO: remove feed2js in favor of RSS feed widgets */
+/* Library News Widget */
+
+.rss-widget h2 {
+  font-size: 1.25em;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 1em;
+  font-weight: 700;
+  background: #002D72;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.rss-widget h2 a {
+  color: #FFFFFF;
+}
+.rss-widget h2 a:hover,
+.rss-widget h2 a:focus {
+  text-decoration: underline;
+}
+
+.rss-widget li {
+  margin-top: 1px;
+}
+
+.rss-widget li a {
+  background-color: var(--white);
+  color: var(--black);
+  display: block;
+  padding: 10px 15px;
+  text-decoration: underline;
+}
+.rss-widget li a:hover, .rss-widget li a:focus {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.rss-widget br {
+  display: none;
+}
+
+.rss-items {
+  padding: 0;
+  list-style: none;
+}
+
+.rss-box:before {
+  content: "";
+  display: table;
+  table-layout: fixed;
+}
+.rss-box:after {
+  clear: both;
+  content: "";
+  display: table;
+  table-layout: fixed;
+}

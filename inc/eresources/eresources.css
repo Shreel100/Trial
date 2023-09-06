@@ -1,0 +1,14 @@
+.rylib-eresources-list-wrap {
+  display: flex;
+}
+
+.rylib-eresources-list {
+  margin: 0;
+  flex: 1 1 0;
+}
+
+@media screen and (max-width: 520px) {
+  .rylib-eresources-list-wrap {
+    flex-direction: column;
+  }
+}

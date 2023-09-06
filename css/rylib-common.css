@@ -1,0 +1,427 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --grey: #d9d9d9;
+  --main-bg-color: #ebebeb;
+  --link-color: #000000;
+  /* Ryerson Blue */
+  --ryerson-blue: #002d72;
+  --ryerson-lightblue: #004c9b;
+  --ryerson-secondary-color: #0077C8;
+  --ryerson-highlight-color: #4EA5E8; }
+
+/* Force vertical scrollbar (works on everything except Opera) */
+html {
+  overflow-y: scroll; }
+
+body {
+  background-color: var(--main-bg-color);
+  color: var(--text-color);
+  position: relative;
+  line-height: 1.6em;
+  font-family: 'Replica-Regular', Verdana, Arial, sans-serif; }
+
+/* Collapse toggle button (might use this in other places) */
+a.collapse-toggle {
+  color: #FFF;
+  font-family: "FontAwesome"; }
+
+a.collapse-toggle:after {
+  content: "\f077"; }
+
+a.collapse-toggle.collapsed:after {
+  content: "\f078"; }
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 1.25em; }
+
+.h1, h1 {
+  font-size: 2em; }
+
+.h2, h2 {
+  font-size: 1.75em; }
+
+.h3, h3 {
+  font-size: 1.5em; }
+
+.h4, h4 {
+  font-size: 1.25em; }
+
+.h5, h5 {
+  font-size: 1.1em; }
+
+.h6, h6 {
+  font-size: 1em; }
+
+/* Global Header Top */
+.global-header-top {
+  background: var(--white); }
+
+.global-header-top a {
+  font-weight: 700;
+  text-decoration: none; }
+
+.global-header-top .navbar {
+  border: 0;
+  margin-bottom: 0;
+  min-height: auto; }
+
+.global-header-top .navbar-brand img {
+  height: 50px; }
+
+.global-header-top .navbar-header {
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+
+.global-header-top .navbar-brand {
+  padding: 0; }
+
+.global-header-top .navbar-form {
+  margin: 0;
+  padding: 0; }
+
+@media (max-width: 767px) {
+  .global-header-top .navbar-toggle {
+    float: none;
+    border: 0;
+    border-radius: 0px;
+    font-size: 1.5em;
+    margin: 0;
+    height: 50px;
+    width: 50px;
+    color: var(--ryerson-blue); }
+  .global-header-top .navbar-toggle:hover,
+  .global-header-top .navbar-toggle:focus {
+    background: var(--main-bg-color); }
+  .global-header-top .navbar-nav {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px; }
+  .global-header-top .navbar-toggle-wrap {
+    float: right; }
+  .global-header-top #site-search-form, .global-header-top .navbar-nav {
+    border-top: 1px solid var(--ryerson-blue); }
+  .global-header-top .rylib-search-form {
+    padding: 15px 0; } }
+
+@media (min-width: 768px) {
+  .global-header-top .nav li + li {
+    margin-left: 1rem; }
+  .global-header-top .nav a {
+    background: var(--main-bg-color);
+    border: 1px solid var(--main-bg-color);
+    color: var(--ryerson-blue);
+    padding: 0.75em;
+    line-height: 1em;
+    border-radius: 5px; }
+  .global-header-top .nav a:hover,
+  .global-header-top .nav a:focus {
+    background: var(--white);
+    border-color: var(--white); }
+  .global-header-top #global-navigation {
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: -15px; }
+  .global-header-top #site-search-form {
+    padding-right: 0; }
+  .global-header-top .navbar-collapse {
+    padding-top: 1rem;
+    padding-bottom: 1rem; }
+  .global-header-top .navbar-nav, .global-header-top .rylib-search-form {
+    display: flex;
+    align-items: center;
+    height: 50px; } }
+
+/* Global Header Bottom */
+.global-header-bottom {
+  background: var(--ryerson-blue);
+  font-weight: 700; }
+
+.global-header-bottom .navbar-nav > li > a {
+  color: var(--white);
+  padding: 11px 20px;
+  text-decoration: none; }
+
+.global-header-bottom .nav > li > a:hover {
+  background: var(--ryerson-lightblue);
+  outline: none; }
+
+.global-header-bottom .nav > li > a:focus {
+  background: var(--ryerson-lightblue); }
+
+.global-header-bottom .navbar-header {
+  position: relative; }
+
+.global-header-bottom button.navbar-toggle {
+  color: var(--white);
+  font-size: 1.5em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-bottom: 0;
+  margin-right: 8px;
+  margin-top: 4px;
+  border: none; }
+
+.global-header-bottom button.navbar-toggle:focus {
+  background: none; }
+
+.global-header-bottom button.navbar-toggle:hover {
+  background: none;
+  border: none; }
+
+.global-header-bottom .navbar-brand {
+  color: var(--white);
+  width: 100%; }
+
+.global-header-bottom .current-menu-item,
+.global-header-bottom .current-page-ancestor {
+  background: var(--ryerson-lightblue); }
+
+@media (min-width: 768px) {
+  .global-header-bottom .navbar-brand {
+    display: none; }
+  .global-header-bottom .navbar-nav {
+    text-align: center;
+    width: 100%; }
+  .global-header-bottom .navbar-nav > li {
+    float: none;
+    display: inline-block; } }
+
+/* Local Footer */
+ul.social {
+  padding: 0; }
+
+ul.social li {
+  display: inline-block;
+  font-size: 1.35em;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center; }
+
+ul.social li + li {
+  margin-left: 5px; }
+
+ul.social a {
+  background: #000;
+  color: #FFF;
+  display: block;
+  border-radius: 30px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center; }
+
+.local-footer {
+  background: #FFFFFF;
+  padding-top: 1em;
+  padding-bottom: 1em; }
+
+.local-footer a {
+  text-decoration: underline; }
+
+.local-footer ul.social a:hover,
+.local-footer ul.social a:focus {
+  background: #0077C8; }
+
+.local-footer-links ul {
+  padding: 0;
+  list-style: none; }
+
+.local-footer-links li {
+  line-height: 1.6em; }
+
+.local-footer .map {
+  max-width: 100%; }
+
+.global-footer-top a,
+.global-footer-top a:link,
+.global-footer-top a:visited,
+.global-footer-bottom a,
+.global-footer-bottom a:link,
+.global-footer-bottom a:visited {
+  color: #FFF; }
+
+.global-footer-top a:hover,
+.global-footer-top a:focus,
+.global-footer-bottom a:hover,
+.global-footer-bottom a:focus {
+  color: #FFDC00; }
+
+.global-footer-top {
+  background: var(--ryerson-blue);
+  color: #FFFFFF;
+  padding-top: 1em;
+  padding-bottom: 1em; }
+
+.global-footer-top .social a {
+  background: #FFF;
+  color: var(--ryerson-blue); }
+
+.global-footer-top ul.social a:hover,
+.global-footer-top ul.social a:focus {
+  background: #FFDC00; }
+
+.gft-middle {
+  margin-top: 1em; }
+
+.gft-bottom {
+  margin-top: 1em; }
+
+.global-footer-links {
+  padding: 0;
+  margin: 0; }
+
+.global-footer-links li {
+  display: inline-block; }
+
+.global-footer-links li + li:before {
+  content: "/\00a0";
+  padding: 0 5px;
+  color: #CCC; }
+
+.global-footer-bottom {
+  background: #004C9B;
+  color: #FFFFFF;
+  padding-top: 1em;
+  padding-bottom: 1em; }
+
+.rylib-search-form form {
+  position: relative; }
+
+.rylib-search-form input {
+  width: 100%;
+  min-width: 250px;
+  background: var(--main-bg-color);
+  border: 0;
+  box-shadow: none;
+  border-radius: 5px;
+  padding: 0.75em;
+  line-height: 1em; }
+
+.rylib-search-form button {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  border: none;
+  box-shadow: none;
+  border-radius: 0 5px 5px 0;
+  background: var(--main-bg-color) none;
+  color: var(--ryerson-blue);
+  padding: 0.75em;
+  line-height: 1em; }
+
+.rylib-search-form-white input,
+.rylib-search-form-white button {
+  background: var(--white); }
+
+.rylib-search-bar {
+  position: relative; }
+
+.rylib-search-bar input {
+  width: 100%;
+  min-width: 250px;
+  background: var(--main-bg-color);
+  border: 0;
+  box-shadow: none;
+  border-radius: 5px;
+  padding: 0.75em;
+  line-height: 1em; }
+
+.rylib-search-bar button {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  border: none;
+  box-shadow: none;
+  border-radius: 0 5px 5px 0;
+  background: var(--main-bg-color) none;
+  color: var(--ryerson-blue);
+  padding: 0.75em;
+  line-height: 1em; }
+
+.rylib-search-bar-white input,
+.rylib-search-bar-white button {
+  background: var(--white); }
+
+/* Tabs component */
+.rylib-tabs {
+  margin-bottom: 0.5em;
+  color: #000; }
+
+/* Tabs navigation */
+.rylib-tabs .tabs {
+  display: block;
+  float: left;
+  margin-right: 1px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  clear: both; }
+
+.rylib-tabs .tabs li {
+  float: left;
+  margin-right: 1px; }
+
+.rylib-tabs .tabs a {
+  background: var(--ryerson-blue);
+  color: var(--white);
+  display: block;
+  font-weight: 700;
+  padding: 0.5em;
+  border: 1px solid var(--ryerson-blue);
+  border-bottom: 0;
+  box-sizing: border-box;
+  text-decoration: none; }
+
+.rylib-tabs .tabs a:hover {
+  background: var(--ryerson-secondary-color);
+  border-color: var(--ryerson-secondary-color); }
+
+.rylib-tabs .tabs a.active {
+  background-color: var(--white);
+  border-color: var(--white);
+  color: var(--black); }
+
+/* Tabs content */
+.rylib-tabs .tabs-content {
+  padding: 15px;
+  background-color: var(--white);
+  margin: 0;
+  list-style: none;
+  clear: both; }
+
+.rylib-tabs .tabs-content > li {
+  display: none;
+  list-style: none; }
+
+.rylib-tabs .tabs-content li.active {
+  display: block; }
+
+/* Nested Tabs styles */
+/* We probably shouldn't nest more than one level deep, so the styles only go one level deep. */
+.rylib-tabs .rylib-tabs .tabs a.active {
+  background-color: #eee;
+  border-color: #eee; }
+
+.rylib-tabs .rylib-tabs .tabs-content {
+  background: #eee; }
+
+.rylib-tabs .rylib-tabs .rylib-search-form input[type="search"], .rylib-tabs .rylib-tabs .rylib-search-form button {
+  background: var(--white); }
+
+/* Search Tabs Typography */
+.rylib-tabs hr {
+  height: 0px;
+  border-top: 1px solid #eee;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em; }
+
+.rylib-tabs p {
+  margin: 0 0 5px 0; }

@@ -1,0 +1,104 @@
+.rl-page-hierarchy,
+.rl-page-hierarchy ul {
+  padding: 0;
+}
+
+.rl-page-hierarchy ul.children {
+  display: none;
+}
+
+.rl-page-hierarchy button.expanded ~ ul.children {
+  display: block;
+}
+
+
+.rl-page-hierarchy li,
+.rl-page-hierarchy a {
+  position: relative;
+  display: block;
+  list-style: none;
+  background: #DDDDDD;
+}
+
+.rl-page-hierarchy .page_item {
+  margin-top: 1px;
+}
+
+.rl-page-hierarchy .page_item a {
+  background: var(--white);
+  color: var(--black);
+  text-decoration: underline;
+  display: block;
+  padding: 10px 15px;
+}
+
+.rl-page-hierarchy .page_item button {
+  display: none;
+  border: none;
+  background: none;
+  position: absolute;
+  top: 14px;
+  right: 8px;
+  width: 1.5rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  background: #bfbfbf;
+  border-radius: 100rem;
+  padding: 0 0 1px 1px;
+  z-index: 10;
+}
+.rl-page-hierarchy .page_item button:after {
+  content: '+';
+}
+.rl-page-hierarchy .page_item button.expanded:after {
+  content: '-';
+}
+
+.rl-page-hierarchy .page_item.page_item_has_children > button {
+  display: block;
+}
+
+.rl-page-hierarchy .page_item a:hover,
+.rl-page-hierarchy .page_item button:hover + a {
+  background: var(--black)!important;
+  color: var(--white)!important;
+}
+
+.rl-page-hierarchy .page_item.current_page_item > a {
+  background: var(--black);
+  color: var(--white);
+}
+
+.rl-page-hierarchy .top-level-item {
+  background: var(--ryerson-blue);
+  color: var(--white);
+  font-size: 1.25em;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 1em;
+}
+
+.rl-page-hierarchy .top-level-item:hover {
+  color: #FFEE00; 
+}
+
+/* second level items */
+.rl-page-hierarchy .page_item .children a {
+  padding-left: 2em;
+}
+
+/* third level items*/
+.rl-page-hierarchy .page_item .children .children a {
+  padding-left: 3em;
+}
+
+/* fourth level items
+ * If you ever get this deep with the hierarchy, reconsider the page
+ * structure. You shouldn't need to nest content this deep. Four 
+ * levels of nesting is probably too much.
+ */
+.rl-page-hierarchy .page_item .children .children .children a {
+  padding-left: 4em;
+}

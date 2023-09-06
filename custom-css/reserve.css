@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Custom CSS for reserve pages */
+#opacbox .box {
+	width: 90%;
+	border: 1px solid silver;
+	margin: 0.5em;
+	padding-left: 1em;
+        padding-top: 1em;
+}
+#opacbox .box h3 {
+	background-color: #FFD464;
+	margin: 0 0 0.5em -0.85em;
+	padding: 0.25em 0.5em;
+}
+#opacbox .box label {
+	width: 25%;
+	text-align: right;
+	display: inline-block;
+	vertical-align: middle;
+}
+#opacbox .example {
+	height: auto;
+	clear: both;
+}
+#opacbox .example p {
+	display: inline-block;
+}
+#opacbox div.example + p {
+	margin-top: 0;
+}
+#opacbox .example p:first-of-type {
+	float: left;
+	margin-right: 1em;
+	text-align: right;
+}
+#opacbox .box .example p:first-of-type {
+	width: 24%;
+}
+#opacbox .box .contain {
+	width: 90%;
+	margin-bottom: 1em;
+}
+#opacbox .contain label {
+	vertical-align: top;
+}

@@ -1,0 +1,129 @@
+/*
+This is the visible area of you carousel.
+Set a width here to define how much items are visible.
+The width can be either fixed in px or flexible in %.
+Position must be relative!
+*/
+.jcarousel {
+  position: relative;
+  overflow: hidden;
+}
+
+/*
+This is the container of the carousel items.
+You must ensure that the position is relative or absolute and
+that the width is big enough to contain all items.
+*/
+.jcarousel ul {
+  width: 20000em;
+  position: relative;
+
+  /* Optional, required in this case since it's a <ul> element */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+These are the item elements. jCarousel works best, if the items
+have a fixed width and height (but it's not required).
+*/
+.jcarousel li {
+  /* Required only for block elements like <li>'s */
+  float: left;  
+  margin-right: 5px
+}
+
+.jcarousel li:hover {
+  filter: brightness(125%);
+}
+
+/** Carousel Controls **/
+.jcarousel-control-prev,
+.jcarousel-control-next {
+  display: block;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+  top: 50%;
+  margin-top: -17px; 
+  background: #004C9A;
+  color: #FFF;
+  opacity: 0.25;
+}
+
+.jcarousel-control-prev:visited,
+.jcarousel-control-next:visited {
+  color: #FFF;
+}
+
+.jcarousel-control-prev:focus,
+.jcarousel-control-next:focus {
+  background: #004C9A;
+  color: #FFF;
+}
+
+.jcarousel:hover .jcarousel-control-prev,
+.jcarousel:hover .jcarousel-control-next {
+  opacity: 1;
+}
+
+.jcarousel-control-prev:hover,
+.jcarousel-control-next:hover {
+  background: #FFF;
+  color: #004C9A;
+}
+
+
+
+.jcarousel-control-prev {
+  left: 0px;
+}
+
+.jcarousel-control-next {
+  right: 0px;
+}
+
+.jcarousel-control-prev .glyphicon,
+.jcarousel-control-next .glyphicon {
+  top: 0;
+  padding: 7px 5px;
+}
+
+/** Carousel Pagination **/
+.jcarousel-pagination {
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+}
+
+.jcarousel-pagination a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  line-height: 14px;
+  min-width: 14px;
+  background: #fff;
+  color: #4E443C;
+  border-radius: 14px;
+  padding: 3px;
+  text-align: center;
+  margin-right: 2px;
+  opacity: .75;
+}
+
+.jcarousel-pagination a.active {
+  background: #4E443C;
+  color: #fff;
+  opacity: 1;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+}
+
+.jcarousel img {
+  display: block;
+  max-width: 100%;
+  height: auto !important;
+  max-height: 200px;
+}

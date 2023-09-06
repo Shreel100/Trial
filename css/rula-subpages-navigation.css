@@ -1,0 +1,94 @@
+/* Subpages Navigation Sidbar */
+.widget.widget_subpages_navigation {
+  margin-bottom: 0;
+}
+
+.widget_subpages_navigation .widget-title {
+  background: var(--ryerson-blue);
+  color: var(--white);
+  font-size: 1.25em;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 1em;
+}
+
+.widget_subpages_navigation .widget-title a,
+.widget_subpages_navigation .widget-title a:link,
+.widget_subpages_navigation .widget-title a:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.widget_subpages_navigation .widget-title a:hover {
+  color: #FFEE00;
+  text-decoration: underline;
+}
+
+.widget_subpages_navigation ul {
+  padding-left: 0;
+}
+
+ul.subpages-navi { 
+  padding-left: 0; 
+}
+
+ul.subpages-navi li { 
+  position: relative;
+}
+
+.subpages-navi-node {
+  margin-top: 1px;
+}
+
+ul.subpages-navi-widget a {
+  background: var(--white);
+  color: var(--black);
+  text-decoration: underline;
+  padding: 10px 15px;
+}
+
+ul.subpages-navi li.subpages-navi-current-level > a {
+  background: var(--black);
+  color: var(--white);
+}
+
+ul.subpages-navi .hitarea { 
+  display: inline-block;
+  position: absolute;
+  right: 5px; 
+  top: 12px;
+}
+
+ul.subpages-navi a:hover {
+  background: var(--black);
+  color: var(--white);
+}
+
+ul.subpages-navi-widget .subpages-navi-level-1 a {
+  padding-left: 2em;
+}
+
+ul.subpages-navi-widget .subpages-navi-level-2 a {
+  padding-left: 3em;
+}
+
+ul.subpages-navi-widget .subpages-navi-level-3 a {
+  padding-left: 4em;
+}
+
+.section-widget .menu { 
+  list-style: none; 
+  padding: 0;
+}
+
+.section-widget .menu a {
+  padding: 0.5em 2em 0.5em 1em;
+  background: #DDDDDD;
+  display: block;
+}
+
+.section-widget .menu a:hover {
+  background: #000000;
+  color: #FFFFFF;
+}

@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* Styles for eresources pages */
+
+#eresource-header {
+	margin-left: 8em;
+	margin-right: 8em;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	background-color: #F1F1F2;
+}
+#eresource-header a {
+	color: #F37626;
+	text-decoration: none;
+}
+#eresource-header h2>a {
+	font-size: 1.3em;
+	color: #404041;
+}
+#divider {
+	border-bottom: 1px solid #CCC;
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+	overflow: auto;
+}
+img[class*="align"], img[class*="wp-image-"], #content .gallery .gallery-icon img  {
+	border: none;
+}
+#divider .column.narrow {
+	width: 20% !important;
+}
+
+h1 {
+	margin-bottom: 2em;
+}
+#content h2, #content h3 {
+	margin: 0;
+	padding-bottom: 0.1em;
+}
+#about-resource {
+	clear: both;
+	margin-top: 5em;
+}
+#about-resource h3 {
+	padding-bottom: 1.5em;
+}
+@media (max-width: 40.5em) { /* approx 650px */
+#eresource-header {
+	margin-left: 1em;
+	margin-right: 1em;
+}
+}

@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/* CSS Document
+
+Created:  September 27, 2013 by Sally Wilson
+For use with the RUSearch pages
+
+*/
+
+#wrapper { 
+	margin: auto; 
+	width: 900px; 
+	height:auto;
+
+
+} 
+#header { 
+	font-family:"arial black"; 
+	font-weight:bold; 
+	font-size:35px;
+	color:black; 
+	text-align: right; 
+	background-color:#; 
+	width: 900px;
+	height: 78px;
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/LogoMainpage_900.jpg');
+}
+
+#leftmain { 
+	float: left; 
+	width: 600px; 
+	height: 400px; 
+	color: #000; 
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/rusearch_main.png');
+	background-color: #ccc;
+	}
+
+
+#leftmaintext { 
+	width:600px; 
+	height:50px; 
+	background-color:#253b53;
+	font-family: "Myriad Pro", "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+	color:white;
+	float: left;
+	}
+	
+#tagline {
+	padding-top: 0.5em;
+	display: block;
+	padding-left: 1em;
+}
+
+#rightmain { 
+	width: 300px; 
+	background:#FFF5e8;
+	float: right; 
+	font-family: "Myriad Pro", "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+	font-size: 2em; 
+	color:white;
+	text-align:center; 
+	}
+
+#rightmain a {
+	text-decoration:none; 
+	color:white;
+	font-size: 1.8em;
+	padding-top: 1em;
+	line-height: 2em;
+	}
+
+.box1 { 
+	float: right;
+	background-color:#d9b43a; 
+	height:150px; 
+	width: 100%;
+	}
+
+
+.box2 {
+		float: right;
+		background-color:#253b53; 
+		height:150px;
+		width: 100%
+		}
+
+.box3 {
+		float: right;
+		background-color:#d9b43a; 
+		height:150px; 
+		width: 100%
+		}
+
+/* Responsive CSS */
+
+@media (max-width: 53em) { /* approx 850px */
+#header { 
+	background-repeat: no-repeat;
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/LogoMainpage_600.jpg');
+#leftmain {
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/rusearch_main.png');
+}
+#wrapper { 
+	width: 600px;
+}
+}
+
+
+@media (max-width: 40.5em) { /* approx 650px */
+#header { 
+	background-repeat: no-repeat;
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/LogoMainpage_600.jpg');
+}
+#leftmain {
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/rusearch_main.png');
+}
+#wrapper { 
+	width: 600px;
+}
+
+	
+@media (max-width: 28em) { /* approx 450px */
+#header {
+	background-repeat: no-repeat;
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/LogoMainpage_300.jpg');
+}
+#leftmain {
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/rusearch_main.png');
+}

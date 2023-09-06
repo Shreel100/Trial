@@ -1,0 +1,114 @@
+/* Flexible content layout styles */
+.rula-flex-imagetext {
+  background: #FCFCFC;
+  padding: 15px;
+}
+
+.rula-flex-imagetext a {
+  color: inherit;
+}
+
+.rula-flex-imagetext img {
+  display: block;
+}
+
+.rula-flex-imagetext h3 {
+  background: #004C9B;
+  color: #FFF;
+  display: inline-block;
+  position: absolute;
+  margin-top: -1.5em;
+  margin-left: 0.75em;
+  padding: 1em;
+}
+
+.rula-flex-imagetext p {
+  margin-top: 2.5em;
+  margin-left: 0.75em;
+}
+/* Other Colours! */
+.rula-flex-imagetext.ryersonblue h3 {
+  background: #004C9B;
+  color: #FFFFFF;
+}
+.rula-flex-imagetext.ryersongold h3 {
+  background: #FFDC00;
+  color: #000000;
+}
+.rula-flex-imagetext.black h3 {
+  background: #000000;
+  color: #FFFFFF;
+}
+.rula-flex-imagetext.white h3 {
+  background: #FFFFFF;
+  color: #000000;
+}
+.rula-flex-imagetext.orange h3 {
+  background: #FFA300;
+  color: #000000;
+}
+.rula-flex-imagetext.orange2 h3 {
+  background: #FFC609;
+  color: #000000;
+}
+.rula-flex-imagetext.darkgrey h3 {
+  background: #999999;
+  color: #000000;
+}
+.rula-flex-imagetext.lightgrey h3 {
+  background: #D9D9D9;
+  color: #000000;
+}
+.rula-flex-imagetext.darkblue h3 {
+  background: #002D72;
+  color: #FFFFFF;
+}
+.rula-flex-imagetext.lightblue h3 {
+  background: #0077C8;
+  color: #FFFFFF;
+}
+.rula-flex-imagetext.lightblue2 h3 {
+  background: #00A9EF;
+  color: #000000;
+}
+.rula-flex-imagetext.lightblue3 h3 {
+  background: #5BC2F4;
+  color: #000000;
+}
+.rula-flex-imagetext.darkorange h3 {
+  background: #FF7200;
+  color: #000000;
+}
+.rula-flex-imagetext.red h3 {
+  background: #E40032;
+  color: #FFFFFF;
+}
+.rula-flex-imagetext.pink h3 {
+  background: #EB0072;
+  color: #000000;
+}
+.rula-flex-imagetext.purple h3 {
+  background: #792082;
+  color: #FFFFFF;
+}
+.rula-flex-imagetext.purple2 h3 {
+  background: #7474C1;
+  color: #000000;
+}
+.rula-flex-imagetext.green h3 {
+  background: #009A44;
+  color: #000000;
+}
+.rula-flex-imagetext.green2 h3 {
+  background: #BFBE00;
+  color: #000000;
+}
+.rula-flex-imagetext.teal h3 {
+  background: #00A3AD;
+  color: #000000;
+}
+.rula-flex-imagetext.teal2 h3 {
+  background: #6BBFAE;
+  color: #000000;
+}
+

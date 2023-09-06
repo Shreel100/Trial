@@ -1,0 +1,91 @@
+{
+    "key": "group_591b46302b4a5",
+    "title": "Theme Options",
+    "fields": [
+        {
+            "key": "field_5953eb386baa1",
+            "label": "Site Alert Message",
+            "name": "site_alert_message",
+            "type": "text",
+            "instructions": "This message will be shown on the site if set. For no message, leave this blank.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5e8768baa7501",
+            "label": "Site Alert Message Background Colour",
+            "name": "site_alert_message_bg",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "grey": "Grey",
+                "darkgrey": "Dark Grey",
+                "ryersongold": "Ryerson Gold",
+                "orange": "Orange",
+                "orange2": "Orange 2",
+                "lightgold": "Light Gold"
+            },
+            "default_value": "grey",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5a664021fa2f9",
+            "label": "Enable Calendly Embeds",
+            "name": "enable_calendly_embeds",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "rula-general-settings"
+            }
+        ]
+    ],
+    "menu_order": 5,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "field",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1595435490
+}

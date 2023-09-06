@@ -1,0 +1,200 @@
+{
+    "key": "group_5911e2da82d4d",
+    "title": "Featured Titles",
+    "fields": [
+        {
+            "key": "field_5911e284736ef",
+            "label": "Tag Title",
+            "name": "featured_titles_tag",
+            "type": "text",
+            "instructions": "This is the text that is shown on the tag.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Featured Titles",
+            "placeholder": "Featured Titles",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5911e2ef736f0",
+            "label": "Tag Link",
+            "name": "featured_titles_link",
+            "type": "url",
+            "instructions": "This is the URL that the user will be sent to when the tag is clicked.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "https:\/\/catalogue.library.ryerson.ca\/",
+            "placeholder": "https:\/\/catalogue.library.ryerson.ca\/"
+        },
+        {
+            "key": "field_5911e4b782fba",
+            "label": "Tag Colour",
+            "name": "featured_titles_tag_colour",
+            "type": "select",
+            "instructions": "The background colour of the tag.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "ryersonblue": "Ryerson Blue",
+                "ryersongold": "Ryerson Gold",
+                "white": "White",
+                "black": "Black",
+                "orange": "Orange",
+                "orange2": "Orange 2",
+                "lightgold": "Light Gold",
+                "darkgrey": "Dark Grey",
+                "lightgrey": "Light Grey",
+                "darkblue": "Dark Blue",
+                "lightblue": "Light Blue",
+                "lightblue2": "Light Blue 2",
+                "lightblue3": "Light Blue 3",
+                "darkorange": "Dark Orange",
+                "red": "Red",
+                "pink": "Pink",
+                "purple": "Purple",
+                "purple2": "Purple 2",
+                "green": "Green",
+                "green2": "Green 2",
+                "teal": "Teal",
+                "teal2": "Teal 2"
+            },
+            "default_value": [
+                "Ryerson Blue"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5b311f861ad6f",
+            "label": "Shuffle items",
+            "name": "featured_titles_shuffle_items",
+            "type": "true_false",
+            "instructions": "This option randomizes the display order of the titles if enabled.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5911e381404ef",
+            "label": "Featured Titles",
+            "name": "featured_titles",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 1,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5911e3e5404f0",
+                    "label": "Title",
+                    "name": "title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "Title",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5911e41ea6cde",
+                    "label": "Link",
+                    "name": "link",
+                    "type": "url",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "Link"
+                },
+                {
+                    "key": "field_5911e452a6cdf",
+                    "label": "Image",
+                    "name": "isbn",
+                    "type": "text",
+                    "instructions": "Paste an ISBN or an image URL. If an ISBN is entered, it will automatically grab the cover image from Syndetics.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "ISBN or Image URL",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "rula-featured-titles"
+            }
+        ]
+    ],
+    "menu_order": 14,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1529946092
+}

@@ -1,0 +1,262 @@
+/* Mainsite Frontpage flexbox content layout (availability widget + quickpicks ) */
+.mainsite-frontpage-content-flex { 
+  display: flex; 
+  flex-wrap: wrap;
+}
+#availabilityWidgetWrap, .quickpicks {
+  width: 100%;
+}
+@media ( min-width: 768px ) {
+  #availabilityWidgetWrap { flex: 2; }
+  .quickpicks { flex: 3; }
+}
+@media ( min-width: 1200px ) {
+  #availabilityWidgetWrap { flex: 2; }
+}
+
+
+/* Quickpick Styles */
+#quickpicks img {
+  max-width: 75%;
+}
+
+.quickpicks {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.quickpicks li {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  padding: 10px;
+  width: 125px;
+}
+
+.quickpicks li a,
+.quickpicks li a:link,
+.quickpicks li a:visited {
+  color: #444;
+}
+
+.quickpicks img {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+/* Availability Widget */
+#availabilityWidgetWrap ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+#availabilityWidgetWrap li {
+  margin-top: 1px;
+}
+
+#availabilityWidgetWrap li a {
+  background: var(--white);
+  color: var(--black);
+  text-decoration: underline;
+  display: block;
+  padding: 10px 15px;
+}
+
+#availabilityWidgetWrap li a:hover,
+#availabilityWidgetWrap li a:focus {
+  background: var(--black);
+  color: var(--white);
+}
+
+#availabilityWidgetList:before {
+  content: "";
+  display: table;
+  table-layout: fixed;
+}
+#availabilityWidgetList:after {
+  clear: both;
+  content: "";
+  display: table;
+  table-layout: fixed;
+}
+
+.availabilityWidgetHeading {
+  background: #002D72;
+  color: #FFFFFF;
+  font-size: 1.25em;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 1em;
+}
+
+/* General styles for call to action widgets */
+.cta-widget {
+  margin-top: 1em;
+}
+
+.cta-widget .ryerson-btn {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .cta-widget .ryerson-btn {
+    line-height: 35px;
+  }
+}
+
+/* Hours Widget */
+.hours-widget .ryerson-btn:hover,
+.hours-widget .ryerson-btn:focus {
+  text-decoration: none;
+}
+
+.hours-widget .ryerson-btn:hover #allhours,
+.hours-widget .ryerson-btn:focus #allhours,
+.hours-widget .ryerson-btn:hover #hoursWidgetHoursStatus,
+.hours-widget .ryerson-btn:focus #hoursWidgetHoursStatus {
+  text-decoration: underline;
+}
+
+.hours-widget .fa-clock-o {
+  display: none;
+  font-size: 2.5em;
+}
+
+#hoursWidgetBuildingStatus {
+  display: block;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.75em;
+  margin-bottom: 0.5em;
+}
+
+#hoursWidgetHoursStatus {
+  display: block;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+#allhours {
+  display: block;
+  text-align: center;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .hours-widget .fa-clock-o {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  #hoursWidgetTimeSpan {
+    line-height: 35px;
+    display: inline;
+    vertical-align: bottom;
+  }
+
+  #hoursWidgetBuildingStatus, #hoursWidgetHoursStatus, #allhours {
+    display: inline-block;
+    margin-bottom: 0;
+    line-height: 35px;
+  }
+
+  #hoursWidgetBuildingStatus {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    vertical-align: top;
+  }
+
+  #hoursWidgetHoursStatus {
+    vertical-align: top;
+  }
+
+  #allhours {
+    float: right;
+  }
+}
+
+/* Special styles for eResources custom post type*/
+.single-eresources .entry-title {
+  color: #000;
+  background: #FFEE00;
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin-left: 0.75em;
+  margin-right: 0.75em;
+  margin-top: 0;
+}
+.single-eresources .hentry {
+  margin-bottom: 0; 
+  padding-bottom: 0;
+}
+
+.eresources-connect {
+  padding-top: 45px;
+  background: #FFF;
+  margin-top: -35px;
+}
+.eresources-connect-header {
+  margin-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.eresources-connect-header img {
+  float: left;
+}
+.eresources-connect-header p a {
+  margin-left: 12px;
+}
+.eresources-connect-header .h3 {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+.eresources-connect-content {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+
+/* Ninja Forms Tweaks */
+.nf-form-cont {
+  background: #FFF;
+  padding: 1em;
+}
+
+.nf-form-cont select {
+  background: #E5e5e5;
+  padding: 6px 12px;
+}
+
+/* Temp styles will be trashed when the new styles are implemented. */
+.input-wrapper {
+  position: relative;
+}
+
+#la_qform {
+  margin-bottom: 10px;
+}
+
+#la_qform input[type="text"] {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#la_qform button[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* Hours Page: ColdFusion generated hours table */
+.cal_closure {
+  color: red;
+}

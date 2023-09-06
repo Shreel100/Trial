@@ -1,0 +1,80 @@
+{
+    "key": "group_5e274b2bc1019",
+    "title": "ACF Sidebar",
+    "fields": [
+        {
+            "key": "field_5e274b624002f",
+            "label": "ACF Sidebar Components",
+            "name": "acf_sidebar_flexible_content",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_5e274b7a3a50e": {
+                    "key": "layout_5e274b7a3a50e",
+                    "name": "html_code",
+                    "label": "HTML Code",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e274b9840030",
+                            "label": "HTML Code",
+                            "name": "html_code_field",
+                            "type": "acf_code_field",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "mode": "htmlmixed",
+                            "theme": "monokai"
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_5e2754194fcb2": {
+                    "key": "layout_5e2754194fcb2",
+                    "name": "page_hierarchy",
+                    "label": "Page Hierarchy",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Sidebar Component",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "Displays this content instead of the default sidebar, only if set. Otherwise displays the default sidebar (Appearance > Widgets)",
+    "modified": 1583525628
+}

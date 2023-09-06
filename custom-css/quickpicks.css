@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#quickpicks{
+	margin: 0;
+	padding: 0;
+	border: 0;
+    list-style: none;
+}	
+#quickpicks li {
+    text-align:center;
+    width:84px;
+    height:100px;
+    float:left;
+    padding:5px;
+    margin:0 5px;
+    display: block;
+    line-height: 100%;
+}
+#quickpicks li a, #quickpicks li a:link, #quickpicks li a:visited{
+      display:block;
+      width:74px;
+      height:90px;
+      padding:5px;
+      
+      color:#444444;
+      text-decoration:none;
+      
+      opacity:0.8;
+      
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      -webkit-transition:all 0.2s ease-in;  
+      -moz-transition:all 0.2s ease-in;  
+      -o-transition:all 0.2s ease-in;  
+      transition:all 0.2s ease-in;  
+}
+#quickpicks li a:active, #quickpicks li a:hover{
+      background-color:#eeeeee;
+      color:#000000;
+      text-decoration:none;
+      opacity:1;
+	  height: auto;
+}
+#quickpicks li img{
+        border:0;
+        outline:0;
+        padding:0;
+        margin:0 auto 5px auto;
+        display:block;
+}
+
+

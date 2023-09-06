@@ -1,0 +1,913 @@
+@charset "UTF-8";
+/* CSS Document
+
+Created:  November 7, 2013 by Sally Wilson
+For use with the RUSearch pages - secondary pages
+
+*/
+
+
+#header { 
+	font-family: "Century Gothic", Verdana, Geneva, sans-serif;
+	font-weight:bold; 
+	font-size:35px;
+	color:black; 
+	text-align: right; 
+	background-color:#; 
+	width: 100%;
+	height: 78px;	
+}
+
+#header_left {	
+    height: 78px;
+    width: 66%;
+	float: left;
+    left: 0;
+    top: 1.2em;
+	right: 0;  
+  	left: auto;
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/rusearch_line.jpg');
+	display: inline;
+}
+
+
+#header_right {
+	width: 34%;
+	float: right;
+	display: inline;
+}
+
+
+/* Added for secondary pages */
+
+
+
+#main2 {
+	background-color: #FFF;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	position: relative;
+	height: auto;
+	min-height: 305px;
+}
+
+
+#contentbox{
+	font-family: "Century Gothic", Verdana, Geneva, sans-serif;
+	line-height: 2em;
+	clear: right;
+	float: left;
+	min-height: 540px;
+	width: 70%;
+	
+	left: 3px;
+	top: 0px;
+	background-color: #FFF;
+	padding: 0px;
+/*	text-align: center;*/
+}
+#contentbox h1  {
+	
+	font-size: 1.5em;
+	font-weight: lighter;
+	padding: 0px;
+	margin-top: 3px;
+	margin-right: 0px;
+	margin-bottom: 3px;
+	margin-left: 0px;
+	color: #D9B43A;
+}
+#contentbox p {
+	
+	font-size: 1.2em;
+	font-weight: lighter;
+	margin-top: 3px;
+	margin-right: 1em;
+	margin-bottom: 3px;
+	color: #233952;
+	text-align:left;
+
+}
+#contentbox li {
+	font-size: 1.1em;
+}
+#content2 {
+	font-size: 14px;
+	clear: left;
+	height: 533px;
+	width: 100%;
+	margin-left: 0px;
+	top: 0px;
+	position: relative;
+	height: auto;
+}
+
+.goldbg {
+	background-color: #D9B43B;
+	border: 1px solid #D9B43B;
+}
+.goldbg .sidenav ul li a {
+	color: #223951;
+}
+
+.bluebg {
+	background-color: #223951;
+	border: 1px solid #223951;
+}
+
+
+#sidebarmenu {
+	float: right;
+	width: 30%;
+	font-size: 1em;
+}
+.sidebar {
+	font-weight: bold;
+	color: #FFF;
+	clear: none;	
+	height: 200px;	
+	right: 0px;
+	top: 0px;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+.sidebar a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+	
+
+.sidenav {
+	font-family: "Century Gothic", Verdana, Geneva, sans-serif;
+	font-weight: lighter;
+	color: #FFF;
+	text-align: left;
+	height: 178px;
+	text-transform: uppercase;
+	top: 5px;
+	padding: 0px;
+	margin: 0px;
+	float: none;
+	display: inline;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	clip: rect(0px,0px,0px,0px);
+	right: 0px;
+	white-space: normal;
+	visibility: inherit;
+	line-height: 1em;
+}
+
+.sidenav ul {
+	font-weight: lighter;
+	left: 0px;
+	padding-top: 1.5em;
+}
+.sidenav ul li {
+	list-style: none;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	padding-bottom: 1em;
+}
+.sidenav ul li a {
+	color: #FFF;
+	text-decoration: none;
+	
+}
+/*#container #main .sidenav ul a:link {
+	color: #FFF;
+	text-decoration: none;
+}
+#container #main .sidenav ul a:visited {
+	color: #FFF;
+	text-decoration: none;
+	}*/
+	
+.sidenav ul a:hover {
+	color: #223951;
+	text-decoration: none;
+}
+
+.bluebg .sidenav ul a:hover {
+	color: #D9B43B;
+}
+.goldbg .sidenav ul a:hover {
+	color: #FFF;
+}
+
+/*
+
+#container #main #sidebar2b {
+	font-size: 21px;
+	line-height: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #FFF;
+	background-repeat: no-repeat;
+	clear: right;
+	float: right;
+	height: 179px;
+	width: 249px;
+	position: absolute;
+	left: 710px;
+	top: 178px;
+	display: block;
+	text-indent: -9999px;
+}
+#container #main #sidebar3b {
+	font-size: 21px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #FFF;
+	background-repeat: no-repeat;
+	clear: right;
+	float: right;
+	height: 179px;
+	width: 249px;
+	position: absolute;
+	left: 710px;
+	top: 355px;
+	display: block;
+	text-indent: -9999px;
+}
+#container #main #sidebar3 #sidebar3a {
+	background-image: url(images/three.png);
+	display: block;
+	height: 179px;
+	width: 249px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 0px none #FFF;
+}
+*/
+#inside1 #mainimg {
+	margin: 0px;
+	padding: 0px;
+	height: 430px;
+	width: 381px;
+}
+
+#footer2 {
+	padding-top: 0.5em;
+}
+#footer2 #footnav {
+	font-family: "Century Gothic", Verdana, Geneva, sans-serif;
+	font-size: 1.2em;
+	font-weight: lighter;
+	color: #FFF;
+	text-align: center;
+	height: auto;
+	text-transform: lowercase;
+	background-color: #233952;
+	top: 0px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 0.5em;
+	padding-left: 0px;
+}
+#footer2 #footnav ul {
+	margin: 0px;
+	padding-top: 0px;
+	list-style-type: none;
+	font-weight: lighter;
+	
+}
+#footer2 #footnav ul li {
+	display: inline;
+	padding-right: 1em;
+	padding-left: 1em;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-weight: lighter;
+}
+#footer2 #footnav ul li a {
+	text-decoration: none;
+	font-weight: lighter;
+	color: #FFF;
+}
+/*#container #footer2 #footnav ul a:link {
+	color: #FFF;
+	text-decoration: none;
+}
+#container #footer2 #footnav ul a:visited {
+	color: #FFF;
+	text
+	-decoration: none;
+}*/
+#footer2 #footnav ul a:hover {
+	color: #D9B43B;
+	text-decoration: none;
+}
+
+/* For the four image boxes on the intro page for each section */
+.image_box1 {
+	font-size: 1.5em;
+	line-height: 20px;
+	font-weight: bold;
+	color: #FFF;
+	background-repeat: no-repeat;
+	clear: right;
+	float: left;
+	width: 50%;	
+	top: 50px;
+	display: block;	
+}
+.image_box2 {
+	font-size: 1.5em;
+	line-height: 20px;
+	font-weight: bold;
+	color: #FFF;
+	background-repeat: no-repeat;
+	clear: right;
+	float: right;
+	width: 50%;		
+	top: 50px;
+	display: block;
+}
+.box {
+	margin-bottom: 2em;
+	margin-top: 2em;
+	position: relative;
+}
+.offscreen {
+	position: absolute !important;
+   top: -9999px !important;
+   left: -9999px !important;
+}
+/*#onef{
+	font-size: 21px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #FFF;
+	background-repeat: no-repeat;
+	clear: right;
+	float: right;
+	height: 175px;
+	width: 198px;
+	position: absolute;
+	left: 2em;
+	top: 50px;
+	display: block;
+	text-indent: -9999px;
+}*/
+
+#oneff {
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/buttons_05.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #D9B43B;
+	display: block;
+	height: 175px;
+	/*margin-right: 2.2em;*/
+	margin-left:2.2em;
+	
+}
+#types {
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/buttons_21.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #223951;
+	display: block;
+	height: 175px;
+	/*margin-right: 2.2em;*/
+	margin-left:2.2em;
+	
+}
+#start {
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/buttons_05.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #D9B43B;
+	display: block;
+	height: 175px;
+	/*margin-right: 2.2em;*/
+	margin-left:2.2em;
+	
+}
+/*#oneg {
+	font-size: 21px;
+	line-height: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000;
+	background-repeat: no-repeat;
+	clear: right;
+	float: right;
+	height: 175px;
+	width: 198px;
+	position: absolute;
+	left: 360px;
+	top: 50px;
+	display: block;
+	text-indent: -9999px;
+}*/
+#onegg {
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/buttons_09.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #D9B43B;
+	display: block;
+	height: 175px;
+	margin-right: 2.2em;
+}
+#notes {
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/buttons_22.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #223951;
+	display: block;
+	height: 175px;
+	margin-left: 2.2em;
+}
+#citing {
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/buttons_18.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #D9B43B;
+	display: block;
+	height: 175px;
+	margin-right: 2.2em;
+}
+/* #oneh {
+	font-size: 21px;
+	line-height: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000;
+	background-repeat: no-repeat;
+	clear: right;
+	float: right;
+	height: 175px;
+	width: 198px;
+	position: absolute;
+	left: 2em;
+	top: 280px;
+	display: block;
+	text-indent: -9999px;
+}*/
+#onehh{
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/buttons_10.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #D9B43B;
+	display: block;
+	height: 175px;
+	margin-left: 2.2em;
+	/*margin-right: 2.2em;*/
+	
+}
+#find{
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/blue-mangnify-glass-buttons_121.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #223951;
+	display: block;
+	height: 175px;
+	/*margin-left: 2.2em;*/
+	margin-right: 2.2em;
+	
+}
+#biblio {
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/buttons_15.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #D9B43B;
+	display: block;
+	height: 175px;
+	margin-left: 2.2em;
+	/*margin-right: 2.2em;*/
+	
+}
+/*#onei {
+	line-height: 20px;
+	font-weight: lighter;
+	color: #000;
+	background-repeat: no-repeat;
+	clear: right;
+	float: right;
+	height: 175px;
+	width: 198px;
+	position: absolute;
+	left: 360px;
+	top: 280px;
+	display: block;
+	text-indent: -9999px;
+	text-align: center;
+	font-family: "Helvetica Neue";
+	text-transform: lowercase;
+}*/
+#oneii {
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/buttons_03.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #D9B43B;
+	display: block;
+	height: 175px;
+	margin-right: 2.2em;
+	
+}
+#structure {
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/buttons_20.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #223951;
+	display: block;
+	height: 175px;
+	margin-right: 2.2em;
+	
+}
+#revise {
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/buttons_19.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #D9B43B;
+	display: block;
+	height: 175px;
+	margin-right: 2.2em;
+	
+}
+div.image_box1 .boxtitle {
+	font-size: 0.75em;
+	line-height: 1em;
+	font-weight: lighter;
+	clear: right;
+	float: right;
+	height: 20px;
+	/*width: 10em;*/	
+	font-family: "Helvetica Neue", Verdana, Geneva, sans-serif;
+	text-align: center;
+	color: #233952;
+	margin-right: 4em;
+	margin-left: 4em;
+}
+div.image_box2 .boxtitle {
+	font-size: 0.75em;
+	line-height: 1em;
+	font-weight: lighter;
+	clear: right;
+	float: right;
+	height: 20px;
+	/*width: 10em;*/	
+	font-family: "Helvetica Neue", Verdana, Geneva, sans-serif;
+	text-align: center;
+	color: #233952;
+	margin-right: 8em;
+}
+.boxtitle a {
+	text-decoration: none;
+	color: #233952;
+}
+#prev {
+	float: left;
+	font-size: 1.5em;
+	font-weight: lighter;
+	padding: 0px;
+}
+#next {
+	float: right;
+	font-size: 1.5em;
+	font-weight: lighter;
+	padding-right: 2em;
+}
+#footer2 {
+	clear: both;
+}
+.tipbox {
+	border: 1px solid silver;
+	padding: 0.5em;
+	margin-top: 0.5em;
+	text-align: left;
+	line-height: 1.3em;
+	padding-right: 20px;
+}
+#you-are-here:before {
+	content:'>> ';
+    color: white;
+	bgcolor: white;
+	margin-left: -1em;
+}
+
+/*#title1 {
+	left: 3em;
+	background-color: #FFF;
+	top: 228px;
+	
+}
+#title2 {
+	
+	left: 360px;
+	background-color: #FFF;
+	top: 228px;
+	
+}
+#title3 {
+	
+	left: 3em;
+	background-color: #FFF;
+	top: 460px;
+	
+}
+#title4 {
+	left: 360px;
+	background-color: #FFF;
+	top: 460px;
+}*/
+
+#contentbox .pyramid p {
+	text-align: center;
+}
+
+/* This section contains rules to hide the page titles from displaying */
+
+#post-15736 h1.entry-title {
+	display: none;
+}
+
+#post-15556 h1.entry-title {
+	display: none;
+}
+
+#post-15550 h1.entry-title {
+	display: none;
+}
+
+#post-15545 h1.entry-title {
+	display: none;
+}
+
+#post-15562 h1.entry-title {
+	display: none;
+}
+
+#post-15579 h1.entry-title {
+	display: none;
+}
+
+#post-15584 h1.entry-title {
+	display: none;
+}
+
+#post-15592 h1.entry-title {
+	display: none;
+}
+
+#post-15731 h1.entry-title {
+	display: none;
+}
+
+#post-16163 h1.entry-title {
+	display: none;
+}
+
+#post-16657 h1.entry-title {
+	display: none;
+}
+
+#post-16689 h1.entry-title {
+	display: none;
+}
+
+#post-16705 h1.entry-title {
+	display: none;
+}
+
+#post-16733 h1.entry-title {
+	display: none;
+}
+
+#post-16754 h1.entry-title {
+	display: none;
+}
+
+#post-16989 h1.entry-title {
+	display: none;
+}
+
+#post-17003 h1.entry-title {
+	display: none;
+}
+
+#post-17118 h1.entry-title {
+	display: none;
+}
+
+#post-17168 h1.entry-title {
+	display: none;
+}
+
+#post-17256 h1.entry-title {
+	display: none;
+}
+
+#post-17297 h1.entry-title {
+	display: none;
+}
+
+#post-17312 h1.entry-title {
+	display: none;
+}
+
+#post-17354 h1.entry-title {
+	display: none;
+}
+
+#post-17376 h1.entry-title {
+	display: none;
+}
+
+#post-17388 h1.entry-title {
+	display: none;
+}
+
+#post-17434 h1.entry-title {
+	display: none;
+}
+
+#post-17444 h1.entry-title {
+	display: none;
+}
+
+#post-17451 h1.entry-title {
+	display: none;
+}
+
+#post-17461 h1.entry-title {
+	display: none;
+}
+
+#post-17472 h1.entry-title {
+	display: none;
+}
+
+#post-17482 h1.entry-title {
+	display: none;
+}
+
+#post-17497 h1.entry-title {
+	display: none;
+}
+
+#post-17503 h1.entry-title {
+	display: none;
+}
+
+#post-17509 h1.entry-title {
+	display: none;
+}
+
+#post-17525 h1.entry-title {
+	display: none;
+}
+
+#post-17554 h1.entry-title {
+	display: none;
+}
+
+#post-17564 h1.entry-title {
+	display: none;
+}
+
+#post-17571 h1.entry-title {
+	display: none;
+}
+
+#post-17584 h1.entry-title {
+	display: none;
+}
+
+#post-17589 h1.entry-title {
+	display: none;
+}
+
+#post-17636 h1.entry-title {
+	display: none;
+}
+
+#post-17600 h1.entry-title {
+	display: none;
+}
+
+#post-17658 h1.entry-title {
+	display: none;
+}
+
+#post-17678 h1.entry-title {
+	display: none;
+}
+
+#post-17704 h1.entry-title {
+	display: none;
+}
+
+#post-17743 h1.entry-title {
+	display: none;
+}
+
+#post-17744 h1.entry-title {
+	display: none;
+}
+
+#post-17745 h1.entry-title {
+	display: none;
+}
+
+#post-17759 h1.entry-title {
+	display: none;
+}
+
+#post-17651 h1.entry-title {
+	display: none;
+}
+
+#post-17724 h1.entry-title {
+	display: none;
+}
+
+#post-17763 h1.entry-title {
+	display: none;
+}
+
+#post-17772 h1.entry-title {
+	display: none;
+}
+
+#post-17805 h1.entry-title {
+	display: none;
+}
+
+#post-17827 h1.entry-title {
+	display: none;
+}
+
+#post-17833 h1.entry-title {
+	display: none;
+}
+
+
+
+
+/* Responsive CSS */
+
+@media (max-width: 53em) { /* approx 650px, force single column */
+
+#rightmain {
+	font-size: 1.5em;	
+}
+#rightmain a {
+	font-size: 1.3em;
+}
+#contentbox {
+	width: 100%;
+	position: relative;
+}
+#sidebarmenu {
+	width: 50%;
+	left: 0;
+	float: left;
+	font-size: 0.8em;
+}
+#sidebarmenu li {
+	line-height: 2em;
+}
+
+#footer2 {
+	clear: both;
+	font-size: 0.8em;
+}
+
+#footer2 #footnav ul li {
+	padding-right: 1em;
+	padding-left: 1em;
+}
+.boxtitle {
+	margin-right: 3em;
+}
+}
+@media (max-width: 42em) {
+	
+#sidebarmenu {
+	width: 100%;
+}
+
+#footer2 #footnav ul li a {
+	display: block;
+}
+.boxtitle {
+	margin-right: 0.5em;
+}
+#oneff, #onehh, #onegg, #oneii {
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+#footnav ul {
+	padding: 0;
+}
+}

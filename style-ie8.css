@@ -1,0 +1,35 @@
+/*
+CSS File for IE8
+Last Modified by: CN
+Last Modified: Jun 19, 2013
+*/
+
+/* 
+  WARNING: This theme is intended to be used in conjunction with the GitHub 
+  Updater plugin (https://github.com/afragen/github-updater). Changes made to 
+  files in this theme directly in the WordPress theme editor will be overwritten 
+  during automatic updates.
+*/
+
+/* WordPress overwrites */
+section.feature-image.large img {  
+    width: 100%;  
+}
+
+/* Subsite Title */
+#sitename {
+	width: 750px;
+}
+
+/* Frontpage */
+.page-template-frontpage-mainsite-php #page {
+	width: 960px;
+}
+.page-template-frontpage-mainsite-php #sitename {
+	width: auto;
+}
+
+/* Content overwrite - get rid of bottom-border on pages*/
+.page .hentry {
+	border-bottom: none;
+}

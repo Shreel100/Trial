@@ -1,0 +1,46 @@
+ul.rylib-events-widget {
+  padding: 0;
+	list-style: none;
+}
+
+ul.rylib-events-widget li {
+	padding-bottom: 1em;
+}
+
+ul.rylib-events-widget .event { 	
+	display: flex;
+	font-weight: 700;
+	color: #0F306B;
+}
+
+ul.rylib-events-widget .event .datewrap {
+	text-align: right;
+	min-width: 135px;
+}
+
+ul.rylib-events-widget .event .date {
+	font-size: 1.25em;
+}
+
+ul.rylib-events-widget .event .time {
+    line-height: 1.3em;
+    font-size: .9em;
+    margin-top: 5px;
+}
+
+ul.rylib-events-widget .event .description {
+	color: #FFF;
+	background: #0F306B;
+	padding: 1em;
+	margin-left: 1em;
+	flex: 1 0 0;
+}
+
+ul.rylib-events-widget .event .description a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+ul.rylib-events-widget .event .description a:hover {
+	text-decoration: underline;
+}

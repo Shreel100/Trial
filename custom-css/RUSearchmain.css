@@ -1,0 +1,365 @@
+@charset "UTF-8";
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+}
+#container {
+	font-family: "Century Gothic";
+	font-size: 1.2em;
+	text-align: left;
+	padding: 0px;
+	height: auto;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+a:link {
+	font-weight: bold;
+	color: #FFF;
+}
+a:visited {
+	font-weight: bold;
+	color: #666;
+}
+a:hover {
+	font-weight: bold;
+	color: #FC0;
+}
+#container #header #logo {
+	height: 110px;
+}
+#header {
+	padding: 0px;
+	height: 78px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#main {
+	background-color: #FFF;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	position: relative;
+	height: auto;
+	min-height: 305px;
+}
+#container #main #content {
+	font-size: 14px;
+	clear: left;
+	height: 533px;
+	width: 711px;
+	margin-left: 0px;
+	top: 0px;
+}
+#footer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	height: 50px;
+	padding-top: 0px;
+	position: relative;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#container #header #logo #RUS-logo {
+	background-image: url(images/webmockup_01.jpg);
+	text-indent: -9999px;
+	display: block;
+	height: 79px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#container #main #inside h1 {
+	font-family: "Century Gothic";
+	font-size: 64px;
+	font-weight: lighter;
+	color: #FFF;
+	text-align: justify;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 15px;
+	padding-left: 5px;
+	letter-spacing: -0.1em;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	margin-left: 33px;
+	margin-right: 0px;
+}
+#container #main #inside p {
+	font-family: "Century Gothic";
+	font-size: 14px;
+	font-style: normal;
+	line-height: 1em;
+	font-weight: lighter;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+
+}
+#container #main #inside1 {
+	font-size: x-large;
+	line-height: 25px;
+	font-weight: 100;
+	color: #FFF;
+	background-repeat: no-repeat;
+	clear: right;
+	float: right;
+	height: 430px;
+	width: 381px;
+	position: absolute;
+	left: 27px;
+	top: 45px;
+	padding: 6px;
+	text-align: center;
+	height: 430px;
+	background-position: center center;
+}
+
+#container #main #inside{
+	font-size: 14px;
+	line-height: 2em;
+	font-weight: 100;
+	color: #FFF;
+	background-repeat: no-repeat;
+	clear: right;
+	float: right;
+	min-height: 418px;
+	width: 250px;
+	position: absolute;
+	left: 431px;
+	top: 50px;
+	background-color: #223951;
+	padding: 6px;
+	text-align: center;
+}
+#container #main  #sidebar1{
+	font-size: 21px;
+	line-height: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #FFF;
+	background-repeat: no-repeat;
+	clear: right;
+	float: right;
+	height: 179px;
+	width: 249px;
+	position: absolute;
+	left: 710px;
+	top: 0px;
+	display: block;
+	text-indent: -9999px;
+}
+#container #main #sidebar2 {
+	font-size: 21px;
+	line-height: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #FFF;
+	background-repeat: no-repeat;
+	clear: right;
+	float: right;
+	height: 179px;
+	width: 249px;
+	position: absolute;
+	left: 710px;
+	top: 178px;
+	display: block;
+	text-indent: -9999px;
+}
+#container #main #sidebar3 {
+	font-size: 21px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #FFF;
+	background-repeat: no-repeat;
+	clear: right;
+	float: right;
+	height: 179px;
+	width: 249px;
+	position: absolute;
+	left: 710px;
+	top: 355px;
+	display: block;
+	text-indent: -9999px;
+}
+#container #main #sidebar1  #sidebar1a{
+	background-image: url(images/one.png);
+	display: block;
+	height: 179px;
+	width: 249px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#container #main #sidebar2 #sidebar2a {
+	background-image: url(images/two.png);
+	display: block;
+	height: 179px;
+	width: 249px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#container #main #sidebar3 #sidebar3a {
+	background-image: url(images/three.png);
+	display: block;
+	height: 179px;
+	width: 249px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 0px none #FFF;
+}
+#container #main #inside1 #mainimg {
+	margin: 0px;
+	padding: 0px;
+	height: 430px;
+	width: 381px;
+}
+#container #footer #footnav {
+	font-family: "Century Gothic";
+	;
+	;
+	font-size: 14px;
+	font-weight: lighter;
+	color: #FFF;
+	text-align: center;
+	height: 30px;
+	text-transform: lowercase;
+	background-color: #233952;
+	top: 0px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#container #footer #footnav ul {
+	margin: 0px;
+	padding-top: 0px;
+	list-style-type: none;
+	font-weight: lighter;
+	font-size: 18px;
+}
+#container #footer #footnav ul li {
+	display: inline;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	height: 35px;
+	font-weight: lighter;
+}
+#container #footer #footnav ul li a {
+	text-decoration: none;
+	font-weight: lighter;
+}
+#container #footer #footnav ul a:link {
+	color: #FFF;
+	text-decoration: none;
+}
+#container #main #contentbox  {
+	font-weight: 100;
+	float: right;
+	height: 430px;
+	width: 700px;
+	position: absolute;
+	left: 0px;
+	padding: 6px;
+	height: 520px;
+	background-color: #FFF;
+}
+#container #footer #footnav ul a:visited {
+	color: #FFF;
+	text
+	-decoration: none;
+}
+#container #footer #footnav ul a:hover {
+	color: #D9B43B;
+	text-decoration: none;
+}
+
+
+#container #main #content #inside h2 {
+	font-family: "Century Gothic";
+	font-size: 18px;
+	font-weight: 100;
+	padding: 0px;
+	margin-top: 3px;
+	margin-right: 0px;
+	margin-bottom: 3px;
+	margin-left: 0px;
+	color: #FFF;
+}
+#container #main #content #inside p1{
+	font-family: "Century Gothic";
+	font-size: 14px;
+	font-style: normal;
+	line-height: 1em;
+	font-weight: lighter;
+	margin: 0px;
+	padding-top: 0em;
+	padding-right: 5px;
+	padding-left: 0px;
+}
+#container #main #content #contentbox p3 {
+	font-family: "Century Gothic";
+	font-size: 24px;
+	text-transform: lowercase;
+	color: #233952;
+	text-align: center;
+	display: list-item;
+	list-style-type: lower-roman;
+}
+
+#container #main #contentbox{
+	line-height: 2em;
+	clear: right;
+	float: left;
+	min-height: 534px;
+	width: 709px;
+	position: absolute;
+	left: 1px;
+	top: -2px;
+	background-color: #FFF;
+	padding: 0px;
+	text-align: center;
+	overflow: auto;
+}
+#main #content #contentbox h  {
+	font-family: "Century Gothic";
+	font-size: 24px;
+	font-weight: lighter;
+	padding: 0px;
+	margin-top: 3px;
+	margin-right: 0px;
+	margin-bottom: 3px;
+	margin-left: 0px;
+	color: #D9B43A;
+}
+#main #content #contentbox h5 {
+	font-family: "Century Gothic";
+	font-size: 18px;
+	font-weight: lighter;
+	margin-top: 3px;
+	margin-right: 0px;
+	margin-bottom: 3px;
+	color: #233952;
+}
+#main #content #contentbox p {
+	font-family: "Century Gothic";
+	font-size: 14px;
+	font-weight: lighter;
+	padding: 0px;
+	margin-top: 3px;
+	margin-right: 0px;
+	margin-bottom: 3px;
+	margin-left: 3px;
+	color: black;
+	text-align:left 
+}

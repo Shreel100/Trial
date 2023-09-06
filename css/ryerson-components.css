@@ -1,0 +1,116 @@
+/* Search form component */
+.rylib-search-form form {
+  position: relative;
+}
+.rylib-search-form input {
+  width: 100%;
+  min-width: 250px;
+  background: var(--main-bg-color);
+  border: 0;
+  box-shadow: none;
+  border-radius: 5px;
+  padding: 0.75em;
+  line-height: 1em;
+}
+.rylib-search-form button {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  border: 1px transparent;
+  box-shadow: none;
+  border-radius: 0 5px 5px 0;
+  background: var(--main-bg-color) none;
+  color: var(--ryerson-blue);
+  padding: 0.75em;
+  line-height: 1em;
+}
+
+/* Tabs component */
+.rylib-tabs {
+  margin-bottom: 0.5em;
+  color: #000;
+}
+
+/* Tabs navigation */
+.rylib-tabs .tabs {
+  display: block;
+  float: left;
+  margin-right: 1px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  clear: both;
+}
+
+.rylib-tabs .tabs li {
+  float: left;
+  margin-right: 1px;
+}
+
+.rylib-tabs .tabs a {
+  background: var(--ryerson-lightblue);
+  color: var(--white);
+  display: block;
+  font-weight: 700;
+  padding: 0.5em;
+  border: 1px solid var(--ryerson-lightblue);
+  border-bottom: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.rylib-tabs .tabs a:hover {
+  background: var(--ryerson-secondary-color);
+  border-color: var(--ryerson-secondary-color);
+}
+
+.rylib-tabs .tabs a.active {
+  background-color: var(--white);
+  border-color: var(--white);
+  color: var(--black);
+}
+
+/* Tabs content */
+.rylib-tabs .tabs-content {
+  padding: 15px;
+  background-color: var(--white);
+  margin: 0;
+  list-style: none;
+  clear: both;
+}
+
+.rylib-tabs .tabs-content > li {
+  display: none;
+  list-style: none;
+}
+
+.rylib-tabs .tabs-content li.active {
+  display: block;
+}
+
+/* Nested Tabs styles */
+/* We probably shouldn't nest more than one level deep, so the styles only go one level deep. */
+.rylib-tabs .rylib-tabs .tabs a.active {
+  background-color: #eee;
+  border-color: #eee;
+}
+
+.rylib-tabs .rylib-tabs .tabs-content {
+  background: #eee;
+}
+
+.rylib-tabs .rylib-tabs .search_form input[type="search"] {
+  background: var(--white);
+}
+
+/* Search Tabs Typography */
+.rylib-tabs hr {
+  height: 0px;
+  border-top: 1px solid #eee;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.rylib-tabs p {
+  margin: 0 0 5px 0;
+}

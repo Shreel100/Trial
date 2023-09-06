@@ -1,0 +1,641 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+body {
+	margin: 0px;
+}
+
+#container {
+	margin: auto;
+	padding: 0px;
+	height: auto;
+	width: 100%;
+	background-color: #FFFFFF;
+	text-align: left;
+	font-family: "Century Gothic", Century, Verdana, Geneva, sans-serif;
+	font-size: 1.2em;
+	color: #313030;
+}
+#header_reuse {
+	padding: 0px;
+	height: 100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#menu {
+	height: 100px;
+}
+
+#menu #SS-logo {
+	text-indent: -9999px;
+	display: block;
+	height: 34px;
+	width: 110px;
+	float: right;
+	background-color: #FFF;
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/MAIN.png');
+	background-repeat: no-repeat;
+	position: relative;
+	/*top: 50px;
+	left: 800px;*/
+}
+
+#banner {
+	/*height: 50px;
+	width: 560px;*/
+	font-family: "Century Gothic";
+	font-size: 2em;
+	color: #000;
+	font-weight: lighter;
+	text-indent: 10px;
+	letter-spacing: -2px;
+	padding: 0px;
+	clear: right;
+	float: left;
+	position: relative;
+	top: 0px;
+	/*right: 400px;*/
+	background-color: #FFF;
+	height: 75px;
+	padding-top: 0.5em;
+	width: 500px;
+	
+}
+.banner_add {
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/Untitled-20.png');
+	background-repeat: no-repeat;
+	width: 80%;
+}
+.banner_reuse {
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/banner3.png');
+	background-repeat: no-repeat;
+}
+#banner #tagline {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 0.5em;
+	color: #000;
+	font-weight: lighter;
+	letter-spacing: normal;
+	position: relative;
+	left: 20px;
+}
+#main_reuse {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0;
+	margin-bottom: auto;
+	padding: 0px;
+	/*min-height: 500px;*/
+	height: auto;
+	max-height: 375px;
+	position: relative;
+	left: 0px;
+	padding-left: 8em;
+}
+#main_reuse_template {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0;
+	margin-bottom: auto;
+	padding: 0px;
+	/*min-height: 500px;*/
+	height: auto;
+	max-height: 375px;
+	position: relative;
+	left: 0px;
+	padding-left: 2em;
+}
+#footer_reuse {
+	height: 160px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	position: relative;
+	padding-top: 0px;
+	/*top: -100px;*/
+}
+#footnav_reuse {
+	height: 80px;
+	width: auto;
+	padding: 0px;
+	top: 0px;
+}
+#container a:link {
+	color: #7ac1b7;
+	font-weight: bold;
+}
+#container a:visited {
+	color: #7ac1b7;
+	font-weight: bold;
+}
+#container a:hover {
+	color: #9e2520;
+	font-weight: bold;
+}
+#content_reuse {
+	/*height: 400px;*/
+	max-height: 310px;
+	width: auto;
+	padding: 5em 0 20em 0;
+	margin: 0px;
+}
+#content_reuse #step {
+	font-family: Candara;
+	font-size: 60px;
+	color: #000;
+	text-indent: 0px;
+	padding: 0;
+	height: 60px;
+	width: auto;
+	position: absolute;
+	clear: left;
+	float: left;
+	top: 130px;
+
+}
+
+
+#content_reuse #step1 {
+	font-family: Candara;
+	font-size: 16px;
+	text-indent: 0px;
+	padding: 0;
+	height: 60px;
+	width: 300px;
+	position: absolute;
+	clear: left;
+	float: left;
+	top: 190px;
+	left: 80px;
+	color: #000;
+}
+#playbutton  {
+	height: 128px;
+	width: 126px;
+	clear: both;
+	float: left;
+	position: relative;
+	/*right: 820px;*/
+	
+}
+.bluebutton {
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/playbutton.png');
+}
+.yellowbutton {
+	/*background-image: url('http://library.torontomu.ca/wp-content/uploads/playbuttony.png');*/
+}
+#playbutton1  {
+	font-size: 21px;
+	line-height: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-repeat: no-repeat;
+	clear: right;
+	float: right;
+	height: 128px;
+	width: 126px;
+	position: absolute;
+	top: 0px;
+	display: block;
+	text-indent: -9999px;
+	right: 0px;
+	z-index: 1000;
+}
+#videoinfo {
+	/*height: 70px;*/
+	width: 230px;
+	/*clear: right;
+	float: right;
+	position: absolute;*/
+	top: 35px;
+	/*right: 580px;*/
+	padding-top: 1em;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 2em;
+	float: left;
+}
+#footer_reuse #videoinfo a:link {
+	color: #ffffff; /* Added to hide link to video */
+	background-color: transparent;
+	text-decoration: none;
+}
+#row1 {
+	height: 100px;
+}
+#row2 {
+	height: auto;
+	padding-left: 10em;
+}
+#onef{
+	font-size: 21px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #FFF;
+	background-repeat: no-repeat;
+	clear: right;
+	float: left;
+	height: 100px;
+	width: 100px;
+	position: relative;
+	/*left: 150px;
+	top: 170px;*/
+	display: block;
+	text-indent: -9999px;
+	}
+#oneff{
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/sc.png');
+	display: block;
+	height: 100px;
+	width: 100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#oneffy {
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/s1.png');
+	display: block;
+	height: 100px;
+	width: 100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+/*#oneg {
+	font-size: 21px;
+	line-height: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000;
+	background-repeat: no-repeat;
+	clear: right;
+	float: left;
+	height: 100px;
+	width: 100px;
+	position: relative;
+	left: 260px;
+	top: 170px;
+	display: block;
+	text-indent: -9999px;
+}*/
+#onegg {
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/sc2.png');
+	display: block;
+	height: 100px;
+	width: 100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#oneggy {
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/s2.png');
+	display: block;
+	height: 100px;
+	width: 100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+/*#oneh {
+	font-size: 21px;
+	line-height: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000;
+	background-repeat: no-repeat;
+	clear: right;
+	float: left;
+	height: 100px;
+	width: 100px;
+	position: relative;
+	left: 370px;
+	top: 170px;
+	display: block;
+	text-indent: -9999px;
+}*/
+#onehh{
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/sc3.png');
+	display: block;
+	height: 100px;
+	width: 100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#onehhy {
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/s3.png');
+	display: block;
+	height: 100px;
+	width: 100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+/*#onei {
+	line-height: 20px;
+	font-weight: lighter;
+	color: #000;
+	background-repeat: no-repeat;
+	clear: right;
+	float: left;
+	height: 100px;
+	width: 100px;
+	position: relative;
+	left: 480px;
+	top: 170px;
+	display: block;
+	text-indent: -9999px;
+	text-align: center;
+	font-family: "Helvetica Neue";
+	text-transform: lowercase;
+}*/
+#oneii {
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/sc4.png');
+	display: block;
+	height: 100px;
+	width: 100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#oneiiy {
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/s4.png');
+	display: block;
+	height: 100px;
+	width: 100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+/*#onej {
+	line-height: 20px;
+	font-weight: lighter;
+	color: #000;
+	background-repeat: no-repeat;
+	clear: right;
+	float: left;
+	height: 100px;
+	width: 100px;
+	position: relative;
+	left: 590px;
+	top: 170px;
+	display: block;
+	text-indent: -9999px;
+	text-align: center;
+	font-family: "Helvetica Neue";
+	text-transform: lowercase;
+}*/
+#onejj {
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/sc5.png');
+	display: block;
+	height: 100px;
+	width: 100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#onejjy {
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/s5.png');
+	display: block;
+	height: 100px;
+	width: 100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+/*#onek {
+	line-height: 20px;
+	font-weight: lighter;
+	color: #000;
+	background-repeat: no-repeat;
+	clear: right;
+	float: left;
+	height: 100px;
+	width: 100px;
+	position: relative;
+	left: 700px;
+	top: 170px;
+	display: block;
+	text-indent: -9999px;
+	text-align: center;
+	font-family: "Helvetica Neue";
+	text-transform: lowercase;
+}*/
+#onekk {
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/sc6.png');
+	display: block;
+	height: 100px;
+	width: 100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#onekky {
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/s6.png');
+	display: block;
+	height: 100px;
+	width: 100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#onelly {
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/s7.png');
+	display: block;
+	height: 100px;
+	width: 100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#onemmy {
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/s8.png');
+	display: block;
+	height: 100px;
+	width: 100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#onenny {
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/s9.png');
+	display: block;
+	height: 100px;
+	width: 100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#oneooy {
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/s10.png');
+	display: block;
+	height: 100px;
+	width: 100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#add  {
+	height: 100px;
+	width: 200px;
+	clear: right;
+	float: right;
+	position: relative;
+	right: 0px;
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/addbutton.png');
+	/*top: 10px;
+*/}
+#reuse  {
+	height: 100px;
+	width: 200px;
+	clear: right;
+	float: right;
+	position: relative;
+	right: 0px;
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/reusebutton.png');
+	/*top: 10px;
+*/}
+#add1  {
+	font-size: 21px;
+	line-height: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-repeat: no-repeat;
+	clear: right;
+	float: right;
+	height: 100px;
+	width: 200px;
+	position: absolute;
+	top: 0px;
+	display: block;
+	text-indent: -9999px;
+	right: 0px;
+}	
+#vhead {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	
+}
+/*added to hide the link to the video*/
+#vhead a:visited {
+color: #ffffff;
+}
+#vtext {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+/*#footer #arrowright {
+	height: 52px;
+	width: 59px;
+	clear: right;
+	float: right;
+	position: absolute;
+	right: 20px;
+	background-image: url('http://library.torontomu.ca/wp-content/uploadsimages/1step2_09.jpg');
+	
+}*/
+/* For individual step pages within add and reuse sections */
+
+#step h2 {
+	font-family: "Century Gothic";
+	font-size: 30px;
+	margin: 0;
+	text-transform: uppercase;
+	padding-bottom: 0.5em;
+}
+
+#step1 {
+	font-size: 1em;
+	/*padding-left: 2em;*/
+	padding-botom: 2em;
+	width: 75%;
+	clear: left;
+	float: left;
+	left: 60px;
+	color: #000;
+	font-family: Candara;
+}
+
+#arrowleft  {
+	height: 52px;
+	width: 59px;
+	clear: right;
+	float: left;
+	
+	
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/ss2_07.jpg');
+ }
+ #arrowleft1  {
+	font-size: 21px;
+	line-height: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-repeat: no-repeat;
+	clear: right;
+	float: left;
+	height: 52px;
+	width: 59px;
+
+	top: 0px;
+	display: block;
+	text-indent: -9999px;
+	right: 0px;
+}
+ 
+#arrowright {
+	height: 52px;
+	width: 58px;
+	clear: right;
+	float: right;
+	
+	
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/ss2_09.jpg');
+	margin-top: -3em;
+}
+ #arrowright1 {
+	font-size: 21px;
+	line-height: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-repeat: no-repeat;
+	clear: right;
+	float: right;
+	height: 52px;
+	width: 59px;
+	position: absolute;
+	top: 0px;
+	display: block;
+	text-indent: -9999px;
+	right: 0px;
+}
+#screenshot {
+	padding-left: 5em;
+	height: auto;
+	width: 699px;
+	text-align: center;
+}
+
+
+ #steps {
+	height: 34px;
+	width: 110px;
+	clear: right;
+	margin: auto;
+	text-align: center;
+	background-image: url('http://library.torontomu.ca/wp-content/uploads/1step2_03.jpg');
+	top: 40px;
+	text-indent: -9999px;
+}
+ #steps1 {
+	font-size: 21px;
+	line-height: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-repeat: no-repeat;
+	clear: right;
+	float: right;
+	height: 34px;
+	width: 110px;
+	position: absolute;
+	display: block;
+	text-indent: -9999px;
+}
+.alignleft {
+	margin-right: 0.5em;
+}
+@media (max-width: 41em) { /* approx    650px, force single column */
+
+#add {
+	float: left;
+}
+#row2 {
+	padding-left: 0;
+}
+#screenshot {
+	padding-left: 1em;
+}
+}

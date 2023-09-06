@@ -1,0 +1,67 @@
+/* RyersonU Copyright Sitewide CSS
+Last Modified by: CN on Jun 18, 2013 */
+
+/*** Content ***/
+/* images without borders */
+img[class*="wp-image-"].noborder, #content .gallery .gallery-icon {
+	border: 0;
+}
+
+/* For auto generated 2 column layouts */
+.auto-two-columns {
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+	column-count: 2;
+}
+
+/* For 2 Column layouts */
+.column {
+	float: left;
+	padding: 0 1%;
+}
+.full {
+	width: 97.5%;
+}
+.half {
+	width: 47.5%;
+}
+.wide {
+	width: 64%;
+}
+.narrow {
+	width: 31%;
+}
+.clearfix {
+  overflow: auto;
+}
+
+.section-widget .menu
+{ 
+	list-style: none outside none;
+	padding-left: 14px;
+}
+.section-widget .menu li {
+  border-top: 1px dotted gray;
+}
+.section-widget .menu a {
+	display: block;
+}
+
+@media (max-width: 40.5em) { /* approx 650px, force single column */
+	.auto-two-columns {
+	-moz-column-count: 1;
+	-webkit-column-count: 1;
+	column-count: 1;
+	}
+	.column {
+		padding: 0 2% !important;
+	}
+	.half,
+	.wide,
+	.narrow {
+		width: 95%;
+	}
+	.leftborder {
+		border-left: none;
+	}
+}
